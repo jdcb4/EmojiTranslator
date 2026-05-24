@@ -5137,6 +5137,12 @@
         "emoji": "🚩",
         "conceptId": "unicode_flag_1f6a9",
         "source": "exact"
+      },
+      {
+        "word": "flag",
+        "emoji": "🏴",
+        "conceptId": "unicode_pirate_1f3f4",
+        "source": "exact"
       }
     ]
   },

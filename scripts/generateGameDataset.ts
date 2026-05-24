@@ -10,6 +10,9 @@ type CorpusEntry = {
   kind?: unknown;
   source?: unknown;
   wikidataId?: unknown;
+  highRecognition?: unknown;
+  recognitionSources?: unknown;
+  boxOfficeRank?: unknown;
 };
 
 type GameClue = {
@@ -19,6 +22,9 @@ type GameClue = {
   emoji: string;
   kind: TitleKind;
   source: string;
+  highRecognition: boolean;
+  recognitionSources: string[];
+  boxOfficeRank?: number;
   confidence: number;
 };
 
@@ -101,7 +107,9 @@ function makeShareCode(value: string, salt: number) {
 
 function emojiUnitCount(emoji: string) {
   return (
-    Array.from(emoji.matchAll(/\p{Emoji}/gu)).length || Array.from(emoji).length
+    emoji.match(
+      /\p{Regional_Indicator}{2}|[0-9#*]\uFE0F?\u20E3|\p{Extended_Pictographic}(?:\uFE0F|\u200D\p{Extended_Pictographic}\uFE0F?)*/gu,
+    )?.length ?? 0
   );
 }
 
@@ -127,6 +135,18 @@ function titleKind(value: unknown): TitleKind {
   return value === 'movie' || value === 'tv' || value === 'book'
     ? value
     : 'unknown';
+}
+
+function stringList(value: unknown) {
+  return Array.isArray(value)
+    ? value.filter((item): item is string => typeof item === 'string')
+    : [];
+}
+
+function optionalNumber(value: unknown) {
+  return typeof value === 'number' && Number.isFinite(value)
+    ? value
+    : undefined;
 }
 
 const options = parseArgs();
@@ -213,6 +233,9 @@ for (const entry of corpus) {
     emoji,
     kind: titleKind(entry.kind),
     source: typeof entry.source === 'string' ? entry.source : 'Local corpus',
+    highRecognition: Boolean(entry.highRecognition),
+    recognitionSources: stringList(entry.recognitionSources),
+    boxOfficeRank: optionalNumber(entry.boxOfficeRank),
     confidence: result.confidence,
   });
 }
@@ -231,6 +254,11 @@ const summary = {
   sourceTitles: corpus.length,
   accepted: accepted.length,
   rejected: corpus.length - accepted.length,
+  highRecognitionAccepted: accepted.filter((clue) => clue.highRecognition)
+    .length,
+  highRecognitionWithThreePlusEmoji: accepted.filter(
+    (clue) => clue.highRecognition && emojiUnitCount(clue.emoji) >= 3,
+  ).length,
   acceptedByKind: accepted.reduce<Record<string, number>>((counts, clue) => {
     counts[clue.kind] = (counts[clue.kind] ?? 0) + 1;
     return counts;

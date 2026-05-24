@@ -6,6 +6,7 @@ import {
   matchTitleGuess,
   type GuessMatchResult,
 } from '../../domain/game/answerMatching';
+import { pickWeightedClue } from '../../domain/game/clueWeight';
 import { buildGameShareText } from '../../domain/game/shareText';
 
 type Feedback =
@@ -60,9 +61,8 @@ function clueFromUrl() {
 function drawRandomClue(seenIds: string[]) {
   const unseen = gameClues.filter((clue) => !seenIds.includes(clue.id));
   const pool = unseen.length > 0 ? unseen : gameClues;
-  const index = Math.floor(Math.random() * pool.length);
 
-  return pool[index] ?? gameClues[0];
+  return pickWeightedClue(pool) ?? gameClues[0];
 }
 
 function kindLabel(kind: GameClue['kind']) {

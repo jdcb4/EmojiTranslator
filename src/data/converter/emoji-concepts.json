@@ -26390,10 +26390,10 @@
   {
     "id": "unicode_pirate_1f3f4",
     "emoji": "🏴",
-    "canonicalWord": "pirate",
+    "canonicalWord": "flag",
     "displayName": "black flag",
-    "directWords": ["pirate"],
-    "plurals": ["pirates"],
+    "directWords": ["blackflag"],
+    "plurals": [],
     "synonyms": [],
     "relatedWords": ["waving", "dark"],
     "category": "symbol",

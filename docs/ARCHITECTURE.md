@@ -33,7 +33,8 @@ This document describes the project's runtime shape and module boundaries.
 The game runtime is fully static:
 
 1. `scripts/fetchGameTitleCorpus.ts` fetches movie, TV, and book title labels
-   from Wikidata into ignored `review/` files.
+   from Wikidata and high-recognition movie titles from Box Office Mojo into
+   ignored `review/` files.
 2. `scripts/generateGameDataset.ts` converts those titles with the existing
    hybrid converter and writes only high-confidence, fully mapped clues to
    `src/data/game/title-clues.json`. Each clue receives a stable six-letter
@@ -42,6 +43,8 @@ The game runtime is fully static:
    dataset or opens a specific clue from `?clue=CODE`.
 4. `src/domain/game/answerMatching.ts` normalises guesses and accepts exact
    matches or tightly bounded Levenshtein near hits.
+5. `src/domain/game/clueWeight.ts` weights static random clue selection toward
+   Box Office Mojo high-recognition movies and clues with three or more emoji.
 
 The browser does not fetch Wikidata or call an LLM. Regeneration is a local
 maintenance step.

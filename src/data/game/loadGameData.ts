@@ -9,6 +9,9 @@ const gameClueSchema = z.object({
   emoji: z.string().min(1),
   kind: z.enum(['movie', 'tv', 'book', 'unknown']),
   source: z.string().min(1),
+  highRecognition: z.boolean(),
+  recognitionSources: z.array(z.string().min(1)),
+  boxOfficeRank: z.number().positive().optional(),
   confidence: z.number().min(0).max(1),
 });
 

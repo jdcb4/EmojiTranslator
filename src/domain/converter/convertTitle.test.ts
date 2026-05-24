@@ -74,6 +74,14 @@ describe('convertMovieTitleToEmoji', () => {
     expect(result.accepted).toBe(true);
   });
 
+  it('uses the full pirate flag emoji for pirate-related words', () => {
+    const pirate = convertMovieTitleToEmoji('Pirate', { mode: 'strict' });
+    const pirates = convertMovieTitleToEmoji('Pirates', { mode: 'strict' });
+
+    expect(pirate.emoji).toBe('🏴‍☠️');
+    expect(pirates.emoji).toBe('🏴‍☠️🏴‍☠️');
+  });
+
   it('leaves rejected maybe-promote candidates unmapped', () => {
     const result = convertMovieTitleToEmoji('Shiro', { mode: 'strict' });
 

@@ -10,6 +10,9 @@ type TitleEntry = {
   source: string;
   wikidataId: string;
   sitelinks: number;
+  highRecognition?: boolean;
+  recognitionSources?: string[];
+  boxOfficeRank?: number;
 };
 
 type SourceConfig = {
@@ -33,6 +36,8 @@ type Options = {
 };
 
 const WIKIDATA_ENDPOINT = 'https://query.wikidata.org/sparql';
+const BOX_OFFICE_MOJO_URL =
+  'https://www.boxofficemojo.com/chart/top_lifetime_gross/';
 const USER_AGENT =
   'EmojiTranslator game corpus research (https://github.com/jdcb4/EmojiTranslator)';
 
@@ -143,6 +148,48 @@ async function fetchJson(url: string, timeoutMs = 90000) {
   }
 }
 
+async function fetchText(url: string, timeoutMs = 90000) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        accept: 'text/html,*/*',
+        'user-agent': USER_AGENT,
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`${response.status} ${response.statusText}`);
+    }
+
+    return await response.text();
+  } catch (error) {
+    try {
+      return execFileSync(
+        'curl.exe',
+        [
+          '--silent',
+          '--show-error',
+          '--location',
+          '--max-time',
+          String(Math.ceil(timeoutMs / 1000)),
+          '--user-agent',
+          USER_AGENT,
+          url,
+        ],
+        { encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 },
+      );
+    } catch {
+      throw error;
+    }
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 type WikidataResponse = {
   results: {
     bindings: Array<{
@@ -155,6 +202,14 @@ type WikidataResponse = {
 
 function cleanTitle(title: string) {
   return title
+    .replace(/&#(\d+);/g, (_match, code: string) =>
+      String.fromCodePoint(Number(code)),
+    )
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&middot;/g, '·')
     .replace(/\s+/g, ' ')
     .replace(/\s+\((film|novel|book|tv series|television series)\)$/i, '')
     .trim();
@@ -222,28 +277,130 @@ async function collectSource(source: SourceConfig) {
   }
 }
 
+async function getBoxOfficeMojoTitles() {
+  const offsets = [0, 200, 400, 600, 800];
+  const entries: TitleEntry[] = [];
+
+  for (const offset of offsets) {
+    const url =
+      offset === 0
+        ? BOX_OFFICE_MOJO_URL
+        : `${BOX_OFFICE_MOJO_URL}?offset=${offset}`;
+    console.log(
+      `Fetching Box Office Mojo top lifetime grosses ${offset + 1}-${offset + 200}...`,
+    );
+    const html = await fetchText(url);
+    const titles = [
+      ...html.matchAll(
+        /<a[^>]+href="\/title\/tt\d+\/\?ref_=bo_cso_table_\d+"[^>]*>(.*?)<\/a>/g,
+      ),
+    ].map((match) => cleanTitle(match[1] ?? ''));
+
+    titles.forEach((title, index) => {
+      if (!usefulTitle(title)) {
+        return;
+      }
+
+      entries.push({
+        title,
+        kind: 'movie',
+        source: 'Box Office Mojo top lifetime grosses',
+        wikidataId: '',
+        sitelinks: 0,
+        highRecognition: true,
+        recognitionSources: [
+          'Box Office Mojo top 1000 domestic lifetime gross',
+        ],
+        boxOfficeRank: offset + index + 1,
+      });
+    });
+  }
+
+  return entries;
+}
+
+async function collectBoxOfficeMojoSource() {
+  try {
+    const entries = await getBoxOfficeMojoTitles();
+
+    return {
+      entries,
+      result: {
+        source: 'Box Office Mojo top lifetime grosses',
+        kind: 'movie' as const,
+        count: entries.length,
+        sample: entries.slice(0, 5).map((entry) => entry.title),
+      } satisfies SourceResult,
+    };
+  } catch (error) {
+    return {
+      entries: [],
+      result: {
+        source: 'Box Office Mojo top lifetime grosses',
+        kind: 'movie' as const,
+        error: error instanceof Error ? error.message : String(error),
+      } satisfies SourceResult,
+    };
+  }
+}
+
+function mergeCorpusEntries(entries: TitleEntry[]) {
+  const merged = new Map<string, TitleEntry>();
+
+  for (const entry of entries) {
+    const key = entry.title.toLowerCase();
+    const current = merged.get(key);
+
+    if (!current) {
+      merged.set(key, {
+        ...entry,
+        recognitionSources: entry.recognitionSources ?? [],
+      });
+      continue;
+    }
+
+    current.source = [...new Set([current.source, entry.source])].join('; ');
+    current.highRecognition =
+      Boolean(current.highRecognition) || Boolean(entry.highRecognition);
+    current.recognitionSources = [
+      ...new Set([
+        ...(current.recognitionSources ?? []),
+        ...(entry.recognitionSources ?? []),
+      ]),
+    ];
+    current.boxOfficeRank =
+      current.boxOfficeRank === undefined
+        ? entry.boxOfficeRank
+        : entry.boxOfficeRank === undefined
+          ? current.boxOfficeRank
+          : Math.min(current.boxOfficeRank, entry.boxOfficeRank);
+    current.sitelinks = Math.max(current.sitelinks, entry.sitelinks);
+  }
+
+  return [...merged.values()].sort(
+    (left, right) =>
+      Number(Boolean(right.highRecognition)) -
+        Number(Boolean(left.highRecognition)) ||
+      (left.boxOfficeRank ?? Number.POSITIVE_INFINITY) -
+        (right.boxOfficeRank ?? Number.POSITIVE_INFINITY) ||
+      right.sitelinks - left.sitelinks,
+  );
+}
+
 const options = parseArgs();
 const sources = await Promise.all(
   SOURCES.map((source) => collectSource(source)),
 );
-const seen = new Set<string>();
-const corpus = sources
-  .flatMap((source) => source.entries)
-  .sort((left, right) => right.sitelinks - left.sitelinks)
-  .filter((entry) => {
-    const key = entry.title.toLowerCase();
-
-    if (seen.has(key)) {
-      return false;
-    }
-
-    seen.add(key);
-    return true;
-  });
+const boxOfficeMojo = await collectBoxOfficeMojoSource();
+const allSources = [...sources, boxOfficeMojo];
+const corpus = mergeCorpusEntries(
+  allSources.flatMap((source) => source.entries),
+);
 const summary = {
   generatedAt: new Date().toISOString(),
-  sources: sources.map((source) => source.result),
+  sources: allSources.map((source) => source.result),
   uniqueTitles: corpus.length,
+  highRecognitionTitles: corpus.filter((entry) => entry.highRecognition).length,
 };
 
 writeJson(options.output, corpus);

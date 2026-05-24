@@ -2,6 +2,17 @@
 
 Notable changes by version. Newest entries go at the top.
 
+## 0.35.1 - 2026-05-24
+
+- Fixed the black-flag concept so pirate and pirates map to the full pirate-flag emoji instead of plain black flags.
+- Regenerated game clues after the pirate mapping correction.
+
+## 0.35.0 - 2026-05-24
+
+- Added Box Office Mojo's top 1,000 domestic lifetime grosses as a high-recognition movie source for game clue generation.
+- Regenerated the game clue dataset with 1,030 accepted clues, including 180 accepted high-recognition movie clues.
+- Weighted random clue selection to double high-recognition clues and double clues with three or more emoji.
+
 ## 0.34.0 - 2026-05-24
 
 - Removed the total clue count from the game UI.
