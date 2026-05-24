@@ -56,6 +56,8 @@ EmojiTranslator is a deterministic movie-title-to-emoji converter for quiz clue 
 | `pnpm run prompt:candidates`      | Print an OpenRouter-ready prompt from candidate review JSON.   |
 | `pnpm run llm:candidates`         | Batch candidate review through OpenRouter into ignored JSON.   |
 | `pnpm run summarise:llm`          | Summarise LLM suggestions with emoji outputs for review.       |
+| `pnpm run promote:llm-candidates` | Promote validated LLM candidate suggestions into static data.  |
+| `pnpm run augment:flags`          | Enrich regional flag concepts with country metadata.           |
 | `pnpm run fetch:unicode`          | Fetch official Unicode Emoji 17.0 base emoji review data.      |
 | `pnpm run llm:unicode`            | Generate one-word meanings and aliases for Unicode emoji.      |
 | `pnpm run promote:unicode`        | Promote validated Unicode emoji mappings into converter data.  |
@@ -84,6 +86,7 @@ EmojiTranslator is a deterministic movie-title-to-emoji converter for quiz clue 
 - [`CHANGELOG.md`](CHANGELOG.md) - notable changes by version.
 - [`DEPLOYMENT.md`](DEPLOYMENT.md) - deploy instructions once chosen.
 - [`API.md`](API.md) - API contract, authentication, and rate-limit behavior.
+- [`DATA_TOOLING.md`](DATA_TOOLING.md) - corpus, LLM, Unicode, flag, and homophone maintenance scripts.
 - [`RESEARCH.md`](RESEARCH.md) - research summary and data-source plan.
 - [`COVERAGE_REPORT.md`](COVERAGE_REPORT.md) - coverage-analysis process and current baseline.
 - [`HOMOPHONE_LIBRARY_OPTIONS.md`](HOMOPHONE_LIBRARY_OPTIONS.md) - tested homophone library options, results, and resource impact.

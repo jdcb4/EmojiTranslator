@@ -1,5 +1,21 @@
 import { convertMovieTitleToEmoji } from './convertTitle';
 import { partWordFallbackMatch } from './partWordFallback';
+import { converterData } from '../../data/converter/loadConverterData';
+
+function regionalCodeFromFlagEmoji(emoji: string) {
+  const codepoints = [...emoji].map((char) => char.codePointAt(0) ?? 0);
+
+  if (
+    codepoints.length !== 2 ||
+    codepoints.some((codepoint) => codepoint < 0x1f1e6 || codepoint > 0x1f1ff)
+  ) {
+    return null;
+  }
+
+  return codepoints
+    .map((codepoint) => String.fromCharCode(65 + codepoint - 0x1f1e6))
+    .join('');
+}
 
 describe('convertMovieTitleToEmoji', () => {
   it.each([
@@ -17,11 +33,14 @@ describe('convertMovieTitleToEmoji', () => {
     ['Before Sunrise', 'strict', '⬅️☀️'],
     ['Back to the Future', 'strict', '↩️🔮'],
     ['Back to the Future', 'rebus', '↩️2️⃣🔮'],
+    ['Infinity', 'strict', '♾️'],
     ['Three Kings', 'strict', '👑👑👑'],
     ['2 Cars', 'strict', '🚗🚗'],
     ['Get Out', 'strict', '🤲➡️'],
     ['Love Actually', 'strict', '❤️✅'],
     ['Casablanca', 'strict', '🏠⚪'],
+    ['Strangelove', 'strict', '❓❤️'],
+    ['Swear', 'strict', '❗'],
     ['The Truman Show', 'rebus', '✅👨📺'],
     ['Finding Nemo', 'rebus', '🔍🦵🚜'],
     ['I, Robot', 'rebus', '👁️🤖'],
@@ -71,6 +90,65 @@ describe('convertMovieTitleToEmoji', () => {
     expect(
       result.tokens.some((token) => token.ruleUsed === 'connector_symbol'),
     ).toBe(true);
+  });
+
+  it('maps common short words that have clear visual rebus symbols', () => {
+    expect(convertMovieTitleToEmoji('It', { mode: 'strict' }).emoji).toBe('💻');
+    expect(convertMovieTitleToEmoji('How', { mode: 'strict' }).emoji).toBe(
+      '❓',
+    );
+    expect(convertMovieTitleToEmoji('Buy', { mode: 'strict' }).emoji).toBe(
+      '🛒',
+    );
+    expect(convertMovieTitleToEmoji('Bye', { mode: 'strict' }).emoji).toBe(
+      '👋',
+    );
+  });
+
+  it('uses buy or bye sound-alikes for by-style words in rebus mode', () => {
+    const by = convertMovieTitleToEmoji('By', { mode: 'rebus' });
+    const bi = convertMovieTitleToEmoji('Bi', { mode: 'rebus' });
+    const mary = convertMovieTitleToEmoji('Mary', { mode: 'rebus' });
+
+    expect(by.emoji).toBe('🛒');
+    expect(by.tokens[0]?.ruleUsed).toBe('homophone');
+    expect(bi.emoji).toBe('👋');
+    expect(bi.tokens[0]?.ruleUsed).toBe('homophone');
+    expect(mary.emoji).toBe('💒');
+    expect(mary.tokens[0]?.ruleUsed).toBe('homophone');
+  });
+
+  it('associates regional flag emoji with names, capitals, demonyms, and short codes', () => {
+    const regionalFlags = converterData.emojiConcepts.filter((concept) =>
+      regionalCodeFromFlagEmoji(concept.emoji),
+    );
+    const france = converterData.emojiConcepts.find(
+      (concept) => concept.emoji === '🇫🇷',
+    );
+    const unitedStates = converterData.emojiConcepts.find(
+      (concept) => concept.emoji === '🇺🇸',
+    );
+
+    expect(regionalFlags).toHaveLength(259);
+    for (const concept of regionalFlags) {
+      const code = regionalCodeFromFlagEmoji(concept.emoji);
+
+      expect(concept.directWords).toContain(code?.toLowerCase());
+    }
+
+    expect(france?.directWords).toEqual(
+      expect.arrayContaining(['france', 'french', 'paris', 'fr']),
+    );
+    expect(unitedStates?.directWords).toEqual(
+      expect.arrayContaining([
+        'unitedstates',
+        'united states',
+        'american',
+        'washingtondc',
+        'us',
+        'usa',
+      ]),
+    );
   });
 
   it('uses a microphone-led clue for singing', () => {

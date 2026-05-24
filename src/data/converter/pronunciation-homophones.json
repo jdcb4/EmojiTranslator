@@ -11,12 +11,40 @@
     ]
   },
   {
+    "input": "add",
+    "candidates": [
+      {
+        "word": "ad",
+        "emoji": "🇦🇩",
+        "conceptId": "unicode_andorra_1f1e6_1f1e9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "ahner",
     "candidates": [
       {
         "word": "honor",
         "emoji": "🏆",
         "conceptId": "concept_prestige",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ahr",
+    "candidates": [
+      {
+        "word": "are",
+        "emoji": "🇦🇪",
+        "conceptId": "unicode_emirates_1f1e6_1f1ea",
+        "source": "exact"
+      },
+      {
+        "word": "ar",
+        "emoji": "🇦🇷",
+        "conceptId": "unicode_argentina_1f1e6_1f1f7",
         "source": "exact"
       }
     ]
@@ -50,12 +78,45 @@
     ]
   },
   {
+    "input": "amann",
+    "candidates": [
+      {
+        "word": "amman",
+        "emoji": "🇯🇴",
+        "conceptId": "unicode_jordan_1f1ef_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "amerika",
     "candidates": [
       {
         "word": "america",
         "emoji": "🇺🇸",
         "conceptId": "place_america",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ammann",
+    "candidates": [
+      {
+        "word": "amman",
+        "emoji": "🇯🇴",
+        "conceptId": "unicode_jordan_1f1ef_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ammon",
+    "candidates": [
+      {
+        "word": "amman",
+        "emoji": "🇯🇴",
+        "conceptId": "unicode_jordan_1f1ef_1f1f4",
         "source": "exact"
       }
     ]
@@ -123,6 +184,67 @@
     ]
   },
   {
+    "input": "arc",
+    "candidates": [
+      {
+        "word": "ark",
+        "emoji": "⚰️",
+        "conceptId": "llm_ark_chest",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "are",
+    "candidates": [
+      {
+        "word": "ar",
+        "emoji": "🇦🇷",
+        "conceptId": "unicode_argentina_1f1e6_1f1f7",
+        "source": "exact"
+      },
+      {
+        "word": "er",
+        "emoji": "🇪🇷",
+        "conceptId": "unicode_eritrea_1f1ea_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ark",
+    "candidates": [
+      {
+        "word": "arc",
+        "emoji": "🌈",
+        "conceptId": "llm_arc_arc",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "arx",
+    "candidates": [
+      {
+        "word": "arcs",
+        "emoji": "🌈",
+        "conceptId": "llm_arc_arc",
+        "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "athans",
+    "candidates": [
+      {
+        "word": "athens",
+        "emoji": "🇬🇷",
+        "conceptId": "unicode_greece_1f1ec_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "aul",
     "candidates": [
       {
@@ -152,6 +274,12 @@
         "emoji": "🐜",
         "conceptId": "unicode_ant_1f41c",
         "source": "exact"
+      },
+      {
+        "word": "ant",
+        "emoji": "🇦🇬",
+        "conceptId": "unicode_antigua_1f1e6_1f1ec",
+        "source": "exact"
       }
     ]
   },
@@ -163,6 +291,39 @@
         "emoji": "🐜",
         "conceptId": "unicode_ant_1f41c",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "aux",
+    "candidates": [
+      {
+        "word": "au",
+        "emoji": "🇦🇺",
+        "conceptId": "unicode_australia_1f1e6_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "awe",
+    "candidates": [
+      {
+        "word": "aw",
+        "emoji": "🇦🇼",
+        "conceptId": "unicode_aruba_1f1e6_1f1fc",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "axe",
+    "candidates": [
+      {
+        "word": "ax",
+        "emoji": "🇦🇽",
+        "conceptId": "unicode_aland_1f1e6_1f1fd",
+        "source": "exact"
       }
     ]
   },
@@ -184,6 +345,12 @@
         "word": "eye",
         "emoji": "👁️",
         "conceptId": "body_eye",
+        "source": "exact"
+      },
+      {
+        "word": "ai",
+        "emoji": "🇦🇮",
+        "conceptId": "unicode_anguilla_1f1e6_1f1ee",
         "source": "exact"
       }
     ]
@@ -213,6 +380,17 @@
         "emoji": "🕗",
         "conceptId": "unicode_eight_1f557",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "baar",
+    "candidates": [
+      {
+        "word": "bar",
+        "emoji": "🇧🇧",
+        "conceptId": "unicode_barbados_1f1e7_1f1e7",
+        "source": "exact"
       }
     ]
   },
@@ -267,12 +445,73 @@
     ]
   },
   {
+    "input": "bagdad",
+    "candidates": [
+      {
+        "word": "baghdad",
+        "emoji": "🇮🇶",
+        "conceptId": "unicode_iraq_1f1ee_1f1f6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "bah",
+    "candidates": [
+      {
+        "word": "ba",
+        "emoji": "🇧🇦",
+        "conceptId": "unicode_bosnia_1f1e7_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "bahl",
+    "candidates": [
+      {
+        "word": "bol",
+        "emoji": "🇧🇴",
+        "conceptId": "unicode_bolivia_1f1e7_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "bahn",
+    "candidates": [
+      {
+        "word": "ban",
+        "emoji": "🇧🇩",
+        "conceptId": "unicode_bangladesh_1f1e7_1f1e9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "bahr",
     "candidates": [
       {
         "word": "bear",
         "emoji": "🐻",
         "conceptId": "unicode_bear_1f43b",
+        "source": "exact"
+      },
+      {
+        "word": "bar",
+        "emoji": "🇧🇧",
+        "conceptId": "unicode_barbados_1f1e7_1f1e7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "bahre",
+    "candidates": [
+      {
+        "word": "bar",
+        "emoji": "🇧🇧",
+        "conceptId": "unicode_barbados_1f1e7_1f1e7",
         "source": "exact"
       }
     ]
@@ -379,6 +618,17 @@
     ]
   },
   {
+    "input": "banh",
+    "candidates": [
+      {
+        "word": "ban",
+        "emoji": "🇧🇩",
+        "conceptId": "unicode_bangladesh_1f1e7_1f1e9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "banke",
     "candidates": [
       {
@@ -397,6 +647,17 @@
         "emoji": "🏦",
         "conceptId": "unicode_bank_1f3e6",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "bann",
+    "candidates": [
+      {
+        "word": "ban",
+        "emoji": "🇧🇩",
+        "conceptId": "unicode_bangladesh_1f1e7_1f1e9",
+        "source": "exact"
       }
     ]
   },
@@ -486,6 +747,28 @@
         "emoji": "🐻",
         "conceptId": "unicode_bear_1f43b",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "barr",
+    "candidates": [
+      {
+        "word": "bar",
+        "emoji": "🇧🇧",
+        "conceptId": "unicode_barbados_1f1e7_1f1e7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "barre",
+    "candidates": [
+      {
+        "word": "bar",
+        "emoji": "🇧🇧",
+        "conceptId": "unicode_barbados_1f1e7_1f1e7",
+        "source": "exact"
       }
     ]
   },
@@ -608,6 +891,12 @@
         "emoji": "🐝",
         "conceptId": "animal_bee",
         "source": "exact"
+      },
+      {
+        "word": "be",
+        "emoji": "🇧🇪",
+        "conceptId": "unicode_belgium_1f1e7_1f1ea",
+        "source": "exact"
       }
     ]
   },
@@ -653,6 +942,12 @@
         "emoji": "🐝",
         "conceptId": "animal_bee",
         "source": "plural"
+      },
+      {
+        "word": "bes",
+        "emoji": "🇧🇶",
+        "conceptId": "unicode_bonaire_1f1e7_1f1f6",
+        "source": "exact"
       }
     ]
   },
@@ -725,6 +1020,17 @@
     ]
   },
   {
+    "input": "bee",
+    "candidates": [
+      {
+        "word": "be",
+        "emoji": "🇧🇪",
+        "conceptId": "unicode_belgium_1f1e7_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "beech",
     "candidates": [
       {
@@ -742,6 +1048,17 @@
     ]
   },
   {
+    "input": "bees",
+    "candidates": [
+      {
+        "word": "bes",
+        "emoji": "🇧🇶",
+        "conceptId": "unicode_bonaire_1f1e7_1f1f6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "beese",
     "candidates": [
       {
@@ -749,6 +1066,12 @@
         "emoji": "🐝",
         "conceptId": "animal_bee",
         "source": "plural"
+      },
+      {
+        "word": "bes",
+        "emoji": "🇧🇶",
+        "conceptId": "unicode_bonaire_1f1e7_1f1f6",
+        "source": "exact"
       }
     ]
   },
@@ -799,6 +1122,34 @@
         "emoji": "🔔",
         "conceptId": "unicode_bell_1f514",
         "source": "exact"
+      },
+      {
+        "word": "bel",
+        "emoji": "🇧🇪",
+        "conceptId": "unicode_belgium_1f1e7_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "behn",
+    "candidates": [
+      {
+        "word": "ben",
+        "emoji": "🇧🇯",
+        "conceptId": "unicode_benin_1f1e7_1f1ef",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "behne",
+    "candidates": [
+      {
+        "word": "ben",
+        "emoji": "🇧🇯",
+        "conceptId": "unicode_benin_1f1e7_1f1ef",
+        "source": "exact"
       }
     ]
   },
@@ -842,6 +1193,17 @@
     ]
   },
   {
+    "input": "bell",
+    "candidates": [
+      {
+        "word": "bel",
+        "emoji": "🇧🇪",
+        "conceptId": "unicode_belgium_1f1e7_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "belle",
     "candidates": [
       {
@@ -854,6 +1216,12 @@
         "word": "bell",
         "emoji": "🔔",
         "conceptId": "unicode_bell_1f514",
+        "source": "exact"
+      },
+      {
+        "word": "bel",
+        "emoji": "🇧🇪",
+        "conceptId": "unicode_belgium_1f1e7_1f1ea",
         "source": "exact"
       }
     ]
@@ -910,12 +1278,45 @@
     ]
   },
   {
+    "input": "benn",
+    "candidates": [
+      {
+        "word": "ben",
+        "emoji": "🇧🇯",
+        "conceptId": "unicode_benin_1f1e7_1f1ef",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "benne",
+    "candidates": [
+      {
+        "word": "ben",
+        "emoji": "🇧🇯",
+        "conceptId": "unicode_benin_1f1e7_1f1ef",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "bere",
     "candidates": [
       {
         "word": "beer",
         "emoji": "🍺",
         "conceptId": "unicode_beer_1f37a",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "berne",
+    "candidates": [
+      {
+        "word": "bern",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
         "source": "exact"
       }
     ]
@@ -1027,6 +1428,28 @@
         "emoji": "💵",
         "conceptId": "money_bill",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "bir",
+    "candidates": [
+      {
+        "word": "bur",
+        "emoji": "🇧🇫",
+        "conceptId": "unicode_burkina_1f1e7_1f1eb",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "birr",
+    "candidates": [
+      {
+        "word": "bur",
+        "emoji": "🇧🇫",
+        "conceptId": "unicode_burkina_1f1e7_1f1eb",
+        "source": "exact"
       }
     ]
   },
@@ -1207,29 +1630,6 @@
         "emoji": "🙇‍♀️",
         "conceptId": "unicode_bow_1f647_200d_2640_fe0f",
         "source": "plural"
-      }
-    ]
-  },
-  {
-    "input": "boe",
-    "candidates": [
-      {
-        "word": "bow",
-        "emoji": "🙇",
-        "conceptId": "unicode_bow_1f647",
-        "source": "exact"
-      },
-      {
-        "word": "bow",
-        "emoji": "🙇‍♂️",
-        "conceptId": "unicode_bow_1f647_200d_2642_fe0f",
-        "source": "exact"
-      },
-      {
-        "word": "bow",
-        "emoji": "🙇‍♀️",
-        "conceptId": "unicode_bow_1f647_200d_2640_fe0f",
-        "source": "exact"
       }
     ]
   },
@@ -1451,6 +1851,17 @@
         "word": "bowl",
         "emoji": "🥣",
         "conceptId": "unicode_bowl_1f963",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "bolle",
+    "candidates": [
+      {
+        "word": "bol",
+        "emoji": "🇧🇴",
+        "conceptId": "unicode_bolivia_1f1e7_1f1f4",
         "source": "exact"
       }
     ]
@@ -1730,6 +2141,17 @@
     ]
   },
   {
+    "input": "bow",
+    "candidates": [
+      {
+        "word": "bo",
+        "emoji": "🇧🇴",
+        "conceptId": "unicode_bolivia_1f1e7_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "bowe",
     "candidates": [
       {
@@ -1861,6 +2283,28 @@
         "emoji": "🙇‍♀️",
         "conceptId": "unicode_bow_1f647_200d_2640_fe0f",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "brasel",
+    "candidates": [
+      {
+        "word": "brasil",
+        "emoji": "🇧🇷",
+        "conceptId": "unicode_brazil_1f1e7_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "brassell",
+    "candidates": [
+      {
+        "word": "brasil",
+        "emoji": "🇧🇷",
+        "conceptId": "unicode_brazil_1f1e7_1f1f7",
+        "source": "exact"
       }
     ]
   },
@@ -2075,6 +2519,17 @@
     ]
   },
   {
+    "input": "buis",
+    "candidates": [
+      {
+        "word": "biz",
+        "emoji": "🇧🇿",
+        "conceptId": "unicode_belize_1f1e7_1f1ff",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "buol",
     "candidates": [
       {
@@ -2104,6 +2559,50 @@
         "emoji": "🐻",
         "conceptId": "unicode_bear_1f43b",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "burmah",
+    "candidates": [
+      {
+        "word": "burma",
+        "emoji": "🇲🇲",
+        "conceptId": "unicode_myanmar_1f1f2_1f1f2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "burn",
+    "candidates": [
+      {
+        "word": "bern",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "burne",
+    "candidates": [
+      {
+        "word": "bern",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "burr",
+    "candidates": [
+      {
+        "word": "bur",
+        "emoji": "🇧🇫",
+        "conceptId": "unicode_burkina_1f1e7_1f1eb",
+        "source": "exact"
       }
     ]
   },
@@ -2153,12 +2652,69 @@
     ]
   },
   {
+    "input": "buy",
+    "candidates": [
+      {
+        "word": "bye",
+        "emoji": "👋",
+        "conceptId": "unicode_wave_1f44b",
+        "source": "exact"
+      },
+      {
+        "word": "bi",
+        "emoji": "🇧🇮",
+        "conceptId": "unicode_burundi_1f1e7_1f1ee",
+        "source": "exact"
+      },
+      {
+        "word": "by",
+        "emoji": "🇧🇾",
+        "conceptId": "unicode_belarus_1f1e7_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "bye",
+    "candidates": [
+      {
+        "word": "buy",
+        "emoji": "🛒",
+        "conceptId": "unicode_cart_1f6d2",
+        "source": "exact"
+      },
+      {
+        "word": "bi",
+        "emoji": "🇧🇮",
+        "conceptId": "unicode_burundi_1f1e7_1f1ee",
+        "source": "exact"
+      },
+      {
+        "word": "by",
+        "emoji": "🇧🇾",
+        "conceptId": "unicode_belarus_1f1e7_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "byrd",
     "candidates": [
       {
         "word": "bird",
         "emoji": "🐦",
         "conceptId": "unicode_bird_1f426",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "byrne",
+    "candidates": [
+      {
+        "word": "bern",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
         "source": "exact"
       }
     ]
@@ -2193,6 +2749,12 @@
         "emoji": "🥫",
         "conceptId": "unicode_can_1f96b",
         "source": "exact"
+      },
+      {
+        "word": "can",
+        "emoji": "🇨🇦",
+        "conceptId": "unicode_canada_1f1e8_1f1e6",
+        "source": "exact"
       }
     ]
   },
@@ -2203,6 +2765,23 @@
         "word": "can",
         "emoji": "🥫",
         "conceptId": "unicode_can_1f96b",
+        "source": "exact"
+      },
+      {
+        "word": "can",
+        "emoji": "🇨🇦",
+        "conceptId": "unicode_canada_1f1e8_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "cai",
+    "candidates": [
+      {
+        "word": "chi",
+        "emoji": "🇨🇱",
+        "conceptId": "unicode_chile_1f1e8_1f1f1",
         "source": "exact"
       }
     ]
@@ -2275,12 +2854,34 @@
     ]
   },
   {
+    "input": "calm",
+    "candidates": [
+      {
+        "word": "com",
+        "emoji": "🇰🇲",
+        "conceptId": "unicode_comoros_1f1f0_1f1f2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "caman",
     "candidates": [
       {
         "word": "cayman",
         "emoji": "🇰🇾",
         "conceptId": "unicode_cayman_1f1f0_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "camm",
+    "candidates": [
+      {
+        "word": "cam",
+        "emoji": "🇰🇭",
+        "conceptId": "unicode_cambodia_1f1f0_1f1ed",
         "source": "exact"
       }
     ]
@@ -2303,6 +2904,12 @@
         "word": "can",
         "emoji": "🥫",
         "conceptId": "unicode_can_1f96b",
+        "source": "exact"
+      },
+      {
+        "word": "can",
+        "emoji": "🇨🇦",
+        "conceptId": "unicode_canada_1f1e8_1f1e6",
         "source": "exact"
       }
     ]
@@ -2512,6 +3119,12 @@
         "emoji": "🐄",
         "conceptId": "unicode_cow_1f404",
         "source": "exact"
+      },
+      {
+        "word": "co",
+        "emoji": "🇨🇴",
+        "conceptId": "unicode_colombia_1f1e8_1f1f4",
+        "source": "exact"
       }
     ]
   },
@@ -2605,12 +3218,29 @@
     ]
   },
   {
+    "input": "check",
+    "candidates": [
+      {
+        "word": "czech",
+        "emoji": "🇨🇿",
+        "conceptId": "unicode_czechia_1f1e8_1f1ff",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "chek",
     "candidates": [
       {
         "word": "check",
         "emoji": "✔️",
         "conceptId": "unicode_check_2714_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "czech",
+        "emoji": "🇨🇿",
+        "conceptId": "unicode_czechia_1f1e8_1f1ff",
         "source": "exact"
       }
     ]
@@ -2622,6 +3252,12 @@
         "word": "check",
         "emoji": "✔️",
         "conceptId": "unicode_check_2714_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "czech",
+        "emoji": "🇨🇿",
+        "conceptId": "unicode_czechia_1f1e8_1f1ff",
         "source": "exact"
       }
     ]
@@ -2726,12 +3362,40 @@
     ]
   },
   {
+    "input": "chow",
+    "candidates": [
+      {
+        "word": "chao",
+        "emoji": "🌀",
+        "conceptId": "llm_chaos_chaos",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ciao",
+    "candidates": [
+      {
+        "word": "chao",
+        "emoji": "🌀",
+        "conceptId": "llm_chaos_chaos",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "cie",
     "candidates": [
       {
         "word": "sea",
         "emoji": "🌊",
         "conceptId": "place_ocean",
+        "source": "exact"
+      },
+      {
+        "word": "si",
+        "emoji": "🇸🇮",
+        "conceptId": "unicode_slovenia_1f1f8_1f1ee",
         "source": "exact"
       }
     ]
@@ -2899,6 +3563,28 @@
     ]
   },
   {
+    "input": "codd",
+    "candidates": [
+      {
+        "word": "cod",
+        "emoji": "🇨🇩",
+        "conceptId": "unicode_congo_1f1e8_1f1e9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "coe",
+    "candidates": [
+      {
+        "word": "co",
+        "emoji": "🇨🇴",
+        "conceptId": "unicode_colombia_1f1e8_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "coffey",
     "candidates": [
       {
@@ -2949,6 +3635,17 @@
         "word": "colombia",
         "emoji": "🇨🇴",
         "conceptId": "unicode_colombia_1f1e8_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "comm",
+    "candidates": [
+      {
+        "word": "com",
+        "emoji": "🇰🇲",
+        "conceptId": "unicode_comoros_1f1f0_1f1f2",
         "source": "exact"
       }
     ]
@@ -3204,6 +3901,28 @@
     ]
   },
   {
+    "input": "crow",
+    "candidates": [
+      {
+        "word": "cro",
+        "emoji": "🇭🇷",
+        "conceptId": "unicode_croatia_1f1ed_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "crowe",
+    "candidates": [
+      {
+        "word": "cro",
+        "emoji": "🇭🇷",
+        "conceptId": "unicode_croatia_1f1ed_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "crowne",
     "candidates": [
       {
@@ -3392,6 +4111,17 @@
     ]
   },
   {
+    "input": "dae",
+    "candidates": [
+      {
+        "word": "de",
+        "emoji": "🇩🇪",
+        "conceptId": "unicode_germany_1f1e9_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "daemon",
     "candidates": [
       {
@@ -3436,6 +4166,28 @@
     ]
   },
   {
+    "input": "day",
+    "candidates": [
+      {
+        "word": "de",
+        "emoji": "🇩🇪",
+        "conceptId": "unicode_germany_1f1e9_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "dea",
+    "candidates": [
+      {
+        "word": "de",
+        "emoji": "🇩🇪",
+        "conceptId": "unicode_germany_1f1e9_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "dear",
     "candidates": [
       {
@@ -3447,12 +4199,45 @@
     ]
   },
   {
+    "input": "dee",
+    "candidates": [
+      {
+        "word": "de",
+        "emoji": "🇩🇪",
+        "conceptId": "unicode_germany_1f1e9_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "deere",
     "candidates": [
       {
         "word": "deer",
         "emoji": "🦌",
         "conceptId": "unicode_deer_1f98c",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "dehn",
+    "candidates": [
+      {
+        "word": "den",
+        "emoji": "🇩🇰",
+        "conceptId": "unicode_denmark_1f1e9_1f1f0",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "dehne",
+    "candidates": [
+      {
+        "word": "den",
+        "emoji": "🇩🇰",
+        "conceptId": "unicode_denmark_1f1e9_1f1f0",
         "source": "exact"
       }
     ]
@@ -3475,6 +4260,28 @@
         "word": "demon",
         "emoji": "👿",
         "conceptId": "unicode_demon_1f47f",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "denn",
+    "candidates": [
+      {
+        "word": "den",
+        "emoji": "🇩🇰",
+        "conceptId": "unicode_denmark_1f1e9_1f1f0",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "denne",
+    "candidates": [
+      {
+        "word": "den",
+        "emoji": "🇩🇰",
+        "conceptId": "unicode_denmark_1f1e9_1f1f0",
         "source": "exact"
       }
     ]
@@ -3508,6 +4315,28 @@
         "word": "devil",
         "emoji": "😈",
         "conceptId": "unicode_devil_1f608",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "dew",
+    "candidates": [
+      {
+        "word": "do",
+        "emoji": "🇩🇴",
+        "conceptId": "unicode_dominican_1f1e9_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "dey",
+    "candidates": [
+      {
+        "word": "de",
+        "emoji": "🇩🇪",
+        "conceptId": "unicode_germany_1f1e9_1f1ea",
         "source": "exact"
       }
     ]
@@ -3557,6 +4386,17 @@
     ]
   },
   {
+    "input": "djakarta",
+    "candidates": [
+      {
+        "word": "jakarta",
+        "emoji": "🇮🇩",
+        "conceptId": "unicode_indonesia_1f1ee_1f1e9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "doar",
     "candidates": [
       {
@@ -3574,6 +4414,17 @@
         "word": "door",
         "emoji": "🚪",
         "conceptId": "unicode_door_1f6aa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "dohm",
+    "candidates": [
+      {
+        "word": "dom",
+        "emoji": "🇩🇴",
+        "conceptId": "unicode_dominican_1f1e9_1f1f4",
         "source": "exact"
       }
     ]
@@ -3612,6 +4463,17 @@
     ]
   },
   {
+    "input": "doo",
+    "candidates": [
+      {
+        "word": "do",
+        "emoji": "🇩🇴",
+        "conceptId": "unicode_dominican_1f1e9_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "dore",
     "candidates": [
       {
@@ -3629,6 +4491,17 @@
         "word": "door",
         "emoji": "🚪",
         "conceptId": "unicode_door_1f6aa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "douglass",
+    "candidates": [
+      {
+        "word": "douglas",
+        "emoji": "🇮🇲",
+        "conceptId": "unicode_man_1f1ee_1f1f2",
         "source": "exact"
       }
     ]
@@ -3685,6 +4558,34 @@
     ]
   },
   {
+    "input": "duch",
+    "candidates": [
+      {
+        "word": "dutch",
+        "emoji": "🇧🇶",
+        "conceptId": "unicode_bonaire_1f1e7_1f1f6",
+        "source": "exact"
+      },
+      {
+        "word": "dutch",
+        "emoji": "🇳🇱",
+        "conceptId": "unicode_netherlands_1f1f3_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "due",
+    "candidates": [
+      {
+        "word": "do",
+        "emoji": "🇩🇴",
+        "conceptId": "unicode_dominican_1f1e9_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "duk",
     "candidates": [
       {
@@ -3729,6 +4630,23 @@
     ]
   },
   {
+    "input": "dusch",
+    "candidates": [
+      {
+        "word": "dutch",
+        "emoji": "🇧🇶",
+        "conceptId": "unicode_bonaire_1f1e7_1f1f6",
+        "source": "exact"
+      },
+      {
+        "word": "dutch",
+        "emoji": "🇳🇱",
+        "conceptId": "unicode_netherlands_1f1f3_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "dyce",
     "candidates": [
       {
@@ -3762,6 +4680,28 @@
     ]
   },
   {
+    "input": "eau",
+    "candidates": [
+      {
+        "word": "au",
+        "emoji": "🇦🇺",
+        "conceptId": "unicode_australia_1f1e6_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ecuadorian",
+    "candidates": [
+      {
+        "word": "ecuadorean",
+        "emoji": "🇪🇨",
+        "conceptId": "unicode_ecuador_1f1ea_1f1e8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "egge",
     "candidates": [
       {
@@ -3779,6 +4719,12 @@
         "word": "island",
         "emoji": "🏝️",
         "conceptId": "unicode_island_1f3dd_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "island",
+        "emoji": "🇮🇸",
+        "conceptId": "unicode_iceland_1f1ee_1f1f8",
         "source": "exact"
       }
     ]
@@ -3818,6 +4764,12 @@
         "word": "ng",
         "emoji": "🆖",
         "conceptId": "unicode_ng_1f196",
+        "source": "exact"
+      },
+      {
+        "word": "ng",
+        "emoji": "🇳🇬",
+        "conceptId": "unicode_nigeria_1f1f3_1f1ec",
         "source": "exact"
       }
     ]
@@ -3867,6 +4819,50 @@
     ]
   },
   {
+    "input": "esch",
+    "candidates": [
+      {
+        "word": "esh",
+        "emoji": "🇪🇭",
+        "conceptId": "unicode_sahara_1f1ea_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "esche",
+    "candidates": [
+      {
+        "word": "esh",
+        "emoji": "🇪🇭",
+        "conceptId": "unicode_sahara_1f1ea_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ess",
+    "candidates": [
+      {
+        "word": "es",
+        "emoji": "🇪🇸",
+        "conceptId": "unicode_spain_1f1ea_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "eury",
+    "candidates": [
+      {
+        "word": "ury",
+        "emoji": "🇺🇾",
+        "conceptId": "unicode_uruguay_1f1fa_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "ewe",
     "candidates": [
       {
@@ -3878,12 +4874,40 @@
     ]
   },
   {
+    "input": "eye",
+    "candidates": [
+      {
+        "word": "ai",
+        "emoji": "🇦🇮",
+        "conceptId": "unicode_anguilla_1f1e6_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "facts",
     "candidates": [
       {
         "word": "fax",
         "emoji": "📠",
         "conceptId": "unicode_fax_1f4e0",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "fae",
+    "candidates": [
+      {
+        "word": "fi",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
+        "source": "exact"
+      },
+      {
+        "word": "phi",
+        "emoji": "🇵🇭",
+        "conceptId": "unicode_philippines_1f1f5_1f1ed",
         "source": "exact"
       }
     ]
@@ -3928,6 +4952,17 @@
         "word": "four",
         "emoji": "🕓",
         "conceptId": "unicode_four_1f553",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "fee",
+    "candidates": [
+      {
+        "word": "fi",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
         "source": "exact"
       }
     ]
@@ -3990,6 +5025,17 @@
     ]
   },
   {
+    "input": "fie",
+    "candidates": [
+      {
+        "word": "fi",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "fier",
     "candidates": [
       {
@@ -4007,6 +5053,39 @@
         "word": "find",
         "emoji": "🔍",
         "conceptId": "action_find",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "finish",
+    "candidates": [
+      {
+        "word": "finnish",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "finn",
+    "candidates": [
+      {
+        "word": "fin",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "finne",
+    "candidates": [
+      {
+        "word": "fin",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
         "source": "exact"
       }
     ]
@@ -4398,6 +5477,17 @@
     ]
   },
   {
+    "input": "froh",
+    "candidates": [
+      {
+        "word": "fro",
+        "emoji": "🇫🇴",
+        "conceptId": "unicode_faroe_1f1eb_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "furey",
     "candidates": [
       {
@@ -4409,6 +5499,23 @@
     ]
   },
   {
+    "input": "fye",
+    "candidates": [
+      {
+        "word": "fi",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
+        "source": "exact"
+      },
+      {
+        "word": "phi",
+        "emoji": "🇵🇭",
+        "conceptId": "unicode_philippines_1f1f5_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "gae",
     "candidates": [
       {
@@ -4416,6 +5523,12 @@
         "emoji": "👨",
         "conceptId": "person_man",
         "source": "synonym"
+      },
+      {
+        "word": "guy",
+        "emoji": "🇬🇾",
+        "conceptId": "unicode_guyana_1f1ec_1f1fe",
+        "source": "exact"
       }
     ]
   },
@@ -4499,6 +5612,17 @@
     ]
   },
   {
+    "input": "gee",
+    "candidates": [
+      {
+        "word": "je",
+        "emoji": "🇯🇪",
+        "conceptId": "unicode_jersey_1f1ef_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "geer",
     "candidates": [
       {
@@ -4532,6 +5656,17 @@
     ]
   },
   {
+    "input": "ginn",
+    "candidates": [
+      {
+        "word": "gin",
+        "emoji": "🇬🇳",
+        "conceptId": "unicode_guinea_1f1ec_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "giorgia",
     "candidates": [
       {
@@ -4560,12 +5695,29 @@
     ]
   },
   {
+    "input": "gnau",
+    "candidates": [
+      {
+        "word": "now",
+        "emoji": "⏰",
+        "conceptId": "llm_now_clock",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "gnu",
     "candidates": [
       {
         "word": "new",
         "emoji": "🆕",
         "conceptId": "unicode_new_1f195",
+        "source": "exact"
+      },
+      {
+        "word": "nu",
+        "emoji": "🇳🇺",
+        "conceptId": "unicode_niue_1f1f3_1f1fa",
         "source": "exact"
       }
     ]
@@ -4633,6 +5785,17 @@
     ]
   },
   {
+    "input": "goo",
+    "candidates": [
+      {
+        "word": "gu",
+        "emoji": "🇬🇺",
+        "conceptId": "unicode_guam_1f1ec_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "goode",
     "candidates": [
       {
@@ -4694,6 +5857,17 @@
         "word": "graph",
         "emoji": "📊",
         "conceptId": "unicode_graph_1f4ca",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "grahn",
+    "candidates": [
+      {
+        "word": "gran",
+        "emoji": "👵",
+        "conceptId": "llm_gran_grandmother",
         "source": "exact"
       }
     ]
@@ -4811,6 +5985,28 @@
     ]
   },
   {
+    "input": "groupe",
+    "candidates": [
+      {
+        "word": "group",
+        "emoji": "👥",
+        "conceptId": "llm_society_group",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "grupe",
+    "candidates": [
+      {
+        "word": "group",
+        "emoji": "👥",
+        "conceptId": "llm_society_group",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "guadalupe",
     "candidates": [
       {
@@ -4883,6 +6079,17 @@
     ]
   },
   {
+    "input": "gumm",
+    "candidates": [
+      {
+        "word": "gum",
+        "emoji": "🇬🇺",
+        "conceptId": "unicode_guam_1f1ec_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "gunn",
     "candidates": [
       {
@@ -4890,6 +6097,94 @@
         "emoji": "🔫",
         "conceptId": "crime_gun",
         "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "haaland",
+    "candidates": [
+      {
+        "word": "holland",
+        "emoji": "🇳🇱",
+        "conceptId": "unicode_netherlands_1f1f3_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "haan",
+    "candidates": [
+      {
+        "word": "hon",
+        "emoji": "🇭🇳",
+        "conceptId": "unicode_honduras_1f1ed_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hahn",
+    "candidates": [
+      {
+        "word": "hon",
+        "emoji": "🇭🇳",
+        "conceptId": "unicode_honduras_1f1ed_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "haile",
+    "candidates": [
+      {
+        "word": "hail",
+        "emoji": "⛈️",
+        "conceptId": "llm_hail_weather",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hailes",
+    "candidates": [
+      {
+        "word": "hails",
+        "emoji": "⛈️",
+        "conceptId": "llm_hail_weather",
+        "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "haitien",
+    "candidates": [
+      {
+        "word": "haitian",
+        "emoji": "🇭🇹",
+        "conceptId": "unicode_haiti_1f1ed_1f1f9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hale",
+    "candidates": [
+      {
+        "word": "hail",
+        "emoji": "⛈️",
+        "conceptId": "llm_hail_weather",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hales",
+    "candidates": [
+      {
+        "word": "hails",
+        "emoji": "⛈️",
+        "conceptId": "llm_hail_weather",
+        "source": "plural"
       }
     ]
   },
@@ -4944,6 +6239,28 @@
         "word": "hammer",
         "emoji": "🔨",
         "conceptId": "unicode_hammer_1f528",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "han",
+    "candidates": [
+      {
+        "word": "hon",
+        "emoji": "🇭🇳",
+        "conceptId": "unicode_honduras_1f1ed_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hao",
+    "candidates": [
+      {
+        "word": "how",
+        "emoji": "❓",
+        "conceptId": "symbol_strange",
         "source": "exact"
       }
     ]
@@ -5061,12 +6378,29 @@
     ]
   },
   {
+    "input": "hau",
+    "candidates": [
+      {
+        "word": "how",
+        "emoji": "❓",
+        "conceptId": "symbol_strange",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "haus",
     "candidates": [
       {
         "word": "house",
         "emoji": "🏠",
         "conceptId": "place_home",
+        "source": "exact"
+      },
+      {
+        "word": "house",
+        "emoji": "🏠",
+        "conceptId": "llm_neighbor_house",
         "source": "exact"
       }
     ]
@@ -5079,6 +6413,12 @@
         "emoji": "🏠",
         "conceptId": "place_home",
         "source": "exact"
+      },
+      {
+        "word": "house",
+        "emoji": "🏠",
+        "conceptId": "llm_neighbor_house",
+        "source": "exact"
       }
     ]
   },
@@ -5089,6 +6429,12 @@
         "word": "house",
         "emoji": "🏠",
         "conceptId": "place_home",
+        "source": "exact"
+      },
+      {
+        "word": "house",
+        "emoji": "🏠",
+        "conceptId": "llm_neighbor_house",
         "source": "exact"
       }
     ]
@@ -5101,6 +6447,17 @@
         "emoji": "🛖",
         "conceptId": "unicode_hut_1f6d6",
         "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hayles",
+    "candidates": [
+      {
+        "word": "hails",
+        "emoji": "⛈️",
+        "conceptId": "llm_hail_weather",
+        "source": "plural"
       }
     ]
   },
@@ -5166,10 +6523,32 @@
     ]
   },
   {
+    "input": "heyl",
+    "candidates": [
+      {
+        "word": "hail",
+        "emoji": "⛈️",
+        "conceptId": "llm_hail_weather",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "hird",
     "candidates": [
       {
         "word": "heard",
+        "emoji": "🇭🇲",
+        "conceptId": "unicode_heard_1f1ed_1f1f2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hmm",
+    "candidates": [
+      {
+        "word": "hm",
         "emoji": "🇭🇲",
         "conceptId": "unicode_heard_1f1ed_1f1f2",
         "source": "exact"
@@ -5238,6 +6617,17 @@
     ]
   },
   {
+    "input": "hohn",
+    "candidates": [
+      {
+        "word": "hon",
+        "emoji": "🇭🇳",
+        "conceptId": "unicode_honduras_1f1ed_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "holm",
     "candidates": [
       {
@@ -5283,6 +6673,28 @@
     ]
   },
   {
+    "input": "hon",
+    "candidates": [
+      {
+        "word": "hun",
+        "emoji": "🇭🇺",
+        "conceptId": "unicode_hungary_1f1ed_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "honn",
+    "candidates": [
+      {
+        "word": "hon",
+        "emoji": "🇭🇳",
+        "conceptId": "unicode_honduras_1f1ed_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "honore",
     "candidates": [
       {
@@ -5300,6 +6712,17 @@
         "word": "honor",
         "emoji": "🏆",
         "conceptId": "concept_prestige",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hoo",
+    "candidates": [
+      {
+        "word": "hu",
+        "emoji": "🇭🇺",
+        "conceptId": "unicode_hungary_1f1ed_1f1fa",
         "source": "exact"
       }
     ]
@@ -5355,6 +6778,39 @@
     ]
   },
   {
+    "input": "hou",
+    "candidates": [
+      {
+        "word": "hu",
+        "emoji": "🇭🇺",
+        "conceptId": "unicode_hungary_1f1ed_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "houle",
+    "candidates": [
+      {
+        "word": "howl",
+        "emoji": "🐺",
+        "conceptId": "llm_howl_howl",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "howe",
+    "candidates": [
+      {
+        "word": "how",
+        "emoji": "❓",
+        "conceptId": "symbol_strange",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "hsu",
     "candidates": [
       {
@@ -5400,12 +6856,57 @@
     ]
   },
   {
+    "input": "huhn",
+    "candidates": [
+      {
+        "word": "hon",
+        "emoji": "🇭🇳",
+        "conceptId": "unicode_honduras_1f1ed_1f1f3",
+        "source": "exact"
+      },
+      {
+        "word": "hun",
+        "emoji": "🇭🇺",
+        "conceptId": "unicode_hungary_1f1ed_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hun",
+    "candidates": [
+      {
+        "word": "hon",
+        "emoji": "🇭🇳",
+        "conceptId": "unicode_honduras_1f1ed_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "hundt",
     "candidates": [
       {
         "word": "hunt",
         "emoji": "🏹",
         "conceptId": "action_hunter",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "hunn",
+    "candidates": [
+      {
+        "word": "hon",
+        "emoji": "🇭🇳",
+        "conceptId": "unicode_honduras_1f1ed_1f1f3",
+        "source": "exact"
+      },
+      {
+        "word": "hun",
+        "emoji": "🇭🇺",
+        "conceptId": "unicode_hungary_1f1ed_1f1fa",
         "source": "exact"
       }
     ]
@@ -5444,12 +6945,51 @@
     ]
   },
   {
+    "input": "ill",
+    "candidates": [
+      {
+        "word": "il",
+        "emoji": "🇮🇱",
+        "conceptId": "unicode_israel_1f1ee_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "imm",
+    "candidates": [
+      {
+        "word": "im",
+        "emoji": "🇮🇲",
+        "conceptId": "unicode_man_1f1ee_1f1f2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "infiniti",
+    "candidates": [
+      {
+        "word": "infinity",
+        "emoji": "♾️",
+        "conceptId": "symbol_infinity",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "ing",
     "candidates": [
       {
         "word": "ng",
         "emoji": "🆖",
         "conceptId": "unicode_ng_1f196",
+        "source": "exact"
+      },
+      {
+        "word": "ng",
+        "emoji": "🇳🇬",
+        "conceptId": "unicode_nigeria_1f1f3_1f1ec",
         "source": "exact"
       }
     ]
@@ -5468,6 +7008,12 @@
   {
     "input": "inn",
     "candidates": [
+      {
+        "word": "in",
+        "emoji": "🇮🇳",
+        "conceptId": "unicode_india_1f1ee_1f1f3",
+        "source": "exact"
+      },
       {
         "word": "in",
         "emoji": "📥",
@@ -5511,6 +7057,17 @@
         "word": "jar",
         "emoji": "🫙",
         "conceptId": "unicode_jar_1fad9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "jamb",
+    "candidates": [
+      {
+        "word": "jam",
+        "emoji": "🇯🇲",
+        "conceptId": "unicode_jamaica_1f1ef_1f1f2",
         "source": "exact"
       }
     ]
@@ -5596,6 +7153,28 @@
     ]
   },
   {
+    "input": "jee",
+    "candidates": [
+      {
+        "word": "je",
+        "emoji": "🇯🇪",
+        "conceptId": "unicode_jersey_1f1ef_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "jerman",
+    "candidates": [
+      {
+        "word": "german",
+        "emoji": "🇩🇪",
+        "conceptId": "unicode_germany_1f1e9_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "jerzy",
     "candidates": [
       {
@@ -5608,6 +7187,50 @@
         "word": "jersey",
         "emoji": "🇯🇪",
         "conceptId": "unicode_jersey_1f1ef_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "jie",
+    "candidates": [
+      {
+        "word": "je",
+        "emoji": "🇯🇪",
+        "conceptId": "unicode_jersey_1f1ef_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "jin",
+    "candidates": [
+      {
+        "word": "gin",
+        "emoji": "🇬🇳",
+        "conceptId": "unicode_guinea_1f1ec_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "joe",
+    "candidates": [
+      {
+        "word": "jo",
+        "emoji": "🇯🇴",
+        "conceptId": "unicode_jordan_1f1ef_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "joh",
+    "candidates": [
+      {
+        "word": "jo",
+        "emoji": "🇯🇴",
+        "conceptId": "unicode_jordan_1f1ef_1f1f4",
         "source": "exact"
       }
     ]
@@ -5652,6 +7275,28 @@
     ]
   },
   {
+    "input": "judgement",
+    "candidates": [
+      {
+        "word": "judgment",
+        "emoji": "👨‍⚖️",
+        "conceptId": "llm_judgment_judge",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "judgements",
+    "candidates": [
+      {
+        "word": "judgments",
+        "emoji": "👨‍⚖️",
+        "conceptId": "llm_judgment_judge",
+        "source": "plural"
+      }
+    ]
+  },
+  {
     "input": "justus",
     "candidates": [
       {
@@ -5669,6 +7314,17 @@
         "word": "catch",
         "emoji": "🫴",
         "conceptId": "unicode_catch_1faf4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kah",
+    "candidates": [
+      {
+        "word": "ca",
+        "emoji": "🇨🇦",
+        "conceptId": "unicode_canada_1f1e8_1f1e6",
         "source": "exact"
       }
     ]
@@ -5725,6 +7381,17 @@
     ]
   },
   {
+    "input": "kai",
+    "candidates": [
+      {
+        "word": "chi",
+        "emoji": "🇨🇱",
+        "conceptId": "unicode_chile_1f1e8_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "kain",
     "candidates": [
       {
@@ -5775,12 +7442,34 @@
     ]
   },
   {
+    "input": "kam",
+    "candidates": [
+      {
+        "word": "cam",
+        "emoji": "🇰🇭",
+        "conceptId": "unicode_cambodia_1f1f0_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "kaman",
     "candidates": [
       {
         "word": "cayman",
         "emoji": "🇰🇾",
         "conceptId": "unicode_cayman_1f1f0_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kamm",
+    "candidates": [
+      {
+        "word": "cam",
+        "emoji": "🇰🇭",
+        "conceptId": "unicode_cambodia_1f1f0_1f1ed",
         "source": "exact"
       }
     ]
@@ -5816,6 +7505,12 @@
         "emoji": "🥫",
         "conceptId": "unicode_can_1f96b",
         "source": "exact"
+      },
+      {
+        "word": "can",
+        "emoji": "🇨🇦",
+        "conceptId": "unicode_canada_1f1e8_1f1e6",
+        "source": "exact"
       }
     ]
   },
@@ -5849,6 +7544,12 @@
         "emoji": "🥫",
         "conceptId": "unicode_can_1f96b",
         "source": "exact"
+      },
+      {
+        "word": "can",
+        "emoji": "🇨🇦",
+        "conceptId": "unicode_canada_1f1e8_1f1e6",
+        "source": "exact"
       }
     ]
   },
@@ -5859,6 +7560,12 @@
         "word": "can",
         "emoji": "🥫",
         "conceptId": "unicode_can_1f96b",
+        "source": "exact"
+      },
+      {
+        "word": "can",
+        "emoji": "🇨🇦",
+        "conceptId": "unicode_canada_1f1e8_1f1e6",
         "source": "exact"
       }
     ]
@@ -6117,6 +7824,28 @@
     ]
   },
   {
+    "input": "kay",
+    "candidates": [
+      {
+        "word": "cay",
+        "emoji": "🇰🇾",
+        "conceptId": "unicode_cayman_1f1f0_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kaye",
+    "candidates": [
+      {
+        "word": "cay",
+        "emoji": "🇰🇾",
+        "conceptId": "unicode_cayman_1f1f0_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "kayne",
     "candidates": [
       {
@@ -6141,6 +7870,23 @@
         "emoji": "🗝️",
         "conceptId": "unicode_key_1f5dd_fe0f",
         "source": "exact"
+      },
+      {
+        "word": "ki",
+        "emoji": "🇰🇮",
+        "conceptId": "unicode_kiribati_1f1f0_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kear",
+    "candidates": [
+      {
+        "word": "kir",
+        "emoji": "🇰🇮",
+        "conceptId": "unicode_kiribati_1f1f0_1f1ee",
+        "source": "exact"
       }
     ]
   },
@@ -6164,6 +7910,23 @@
         "emoji": "🧑‍🦱",
         "conceptId": "unicode_curly_1f9d1_200d_1f9b1",
         "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kearse",
+    "candidates": [
+      {
+        "word": "curse",
+        "emoji": "🤬",
+        "conceptId": "llm_curse_curse",
+        "source": "exact"
+      },
+      {
+        "word": "curse",
+        "emoji": "❗",
+        "conceptId": "unicode_exclamation_2757",
+        "source": "synonym"
       }
     ]
   },
@@ -6197,6 +7960,12 @@
         "word": "key",
         "emoji": "🗝️",
         "conceptId": "unicode_key_1f5dd_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "ki",
+        "emoji": "🇰🇮",
+        "conceptId": "unicode_kiribati_1f1f0_1f1ee",
         "source": "exact"
       }
     ]
@@ -6236,6 +8005,78 @@
     ]
   },
   {
+    "input": "kehn",
+    "candidates": [
+      {
+        "word": "ken",
+        "emoji": "🇰🇪",
+        "conceptId": "unicode_kenya_1f1f0_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kehne",
+    "candidates": [
+      {
+        "word": "ken",
+        "emoji": "🇰🇪",
+        "conceptId": "unicode_kenya_1f1f0_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kenn",
+    "candidates": [
+      {
+        "word": "ken",
+        "emoji": "🇰🇪",
+        "conceptId": "unicode_kenya_1f1f0_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kenyen",
+    "candidates": [
+      {
+        "word": "kenyan",
+        "emoji": "🇰🇪",
+        "conceptId": "unicode_kenya_1f1f0_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kenyon",
+    "candidates": [
+      {
+        "word": "kenyan",
+        "emoji": "🇰🇪",
+        "conceptId": "unicode_kenya_1f1f0_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kerce",
+    "candidates": [
+      {
+        "word": "curse",
+        "emoji": "🤬",
+        "conceptId": "llm_curse_curse",
+        "source": "exact"
+      },
+      {
+        "word": "curse",
+        "emoji": "❗",
+        "conceptId": "unicode_exclamation_2757",
+        "source": "synonym"
+      }
+    ]
+  },
+  {
     "input": "kerley",
     "candidates": [
       {
@@ -6254,6 +8095,28 @@
         "word": "curly",
         "emoji": "🧑‍🦱",
         "conceptId": "unicode_curly_1f9d1_200d_1f9b1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "key",
+    "candidates": [
+      {
+        "word": "ki",
+        "emoji": "🇰🇮",
+        "conceptId": "unicode_kiribati_1f1f0_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "keye",
+    "candidates": [
+      {
+        "word": "chi",
+        "emoji": "🇨🇱",
+        "conceptId": "unicode_chile_1f1e8_1f1f1",
         "source": "exact"
       }
     ]
@@ -6287,12 +8150,45 @@
     ]
   },
   {
+    "input": "khe",
+    "candidates": [
+      {
+        "word": "cay",
+        "emoji": "🇰🇾",
+        "conceptId": "unicode_cayman_1f1f0_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "khost",
     "candidates": [
       {
         "word": "coast",
         "emoji": "🏖️",
         "conceptId": "place_shore",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kier",
+    "candidates": [
+      {
+        "word": "kir",
+        "emoji": "🇰🇮",
+        "conceptId": "unicode_kiribati_1f1f0_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kigale",
+    "candidates": [
+      {
+        "word": "kigali",
+        "emoji": "🇷🇼",
+        "conceptId": "unicode_rwanda_1f1f7_1f1fc",
         "source": "exact"
       }
     ]
@@ -6420,6 +8316,12 @@
       },
       {
         "word": "clock",
+        "emoji": "⏰",
+        "conceptId": "llm_now_clock",
+        "source": "exact"
+      },
+      {
+        "word": "clock",
         "emoji": "🕰️",
         "conceptId": "unicode_clock_1f570_fe0f",
         "source": "exact"
@@ -6433,6 +8335,12 @@
         "word": "clock",
         "emoji": "⏰",
         "conceptId": "time_clock",
+        "source": "exact"
+      },
+      {
+        "word": "clock",
+        "emoji": "⏰",
+        "conceptId": "llm_now_clock",
         "source": "exact"
       },
       {
@@ -6454,6 +8362,12 @@
       },
       {
         "word": "clock",
+        "emoji": "⏰",
+        "conceptId": "llm_now_clock",
+        "source": "exact"
+      },
+      {
+        "word": "clock",
         "emoji": "🕰️",
         "conceptId": "unicode_clock_1f570_fe0f",
         "source": "exact"
@@ -6467,6 +8381,17 @@
         "word": "new",
         "emoji": "🆕",
         "conceptId": "unicode_new_1f195",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "knick",
+    "candidates": [
+      {
+        "word": "nic",
+        "emoji": "🇳🇮",
+        "conceptId": "unicode_nicaragua_1f1f3_1f1ee",
         "source": "exact"
       }
     ]
@@ -6539,6 +8464,17 @@
     ]
   },
   {
+    "input": "knorr",
+    "candidates": [
+      {
+        "word": "nor",
+        "emoji": "🇳🇴",
+        "conceptId": "unicode_norway_1f1f3_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "knot",
     "candidates": [
       {
@@ -6584,6 +8520,17 @@
         "word": "nose",
         "emoji": "👃",
         "conceptId": "unicode_nose_1f443",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "koh",
+    "candidates": [
+      {
+        "word": "co",
+        "emoji": "🇨🇴",
+        "conceptId": "unicode_colombia_1f1e8_1f1f4",
         "source": "exact"
       }
     ]
@@ -6779,6 +8726,28 @@
     ]
   },
   {
+    "input": "krogh",
+    "candidates": [
+      {
+        "word": "cro",
+        "emoji": "🇭🇷",
+        "conceptId": "unicode_croatia_1f1ed_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kroh",
+    "candidates": [
+      {
+        "word": "cro",
+        "emoji": "🇭🇷",
+        "conceptId": "unicode_croatia_1f1ed_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "kross",
     "candidates": [
       {
@@ -6802,6 +8771,17 @@
     ]
   },
   {
+    "input": "krowe",
+    "candidates": [
+      {
+        "word": "cro",
+        "emoji": "🇭🇷",
+        "conceptId": "unicode_croatia_1f1ed_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "kruse",
     "candidates": [
       {
@@ -6817,6 +8797,17 @@
     "candidates": [
       {
         "word": "cuba",
+        "emoji": "🇨🇺",
+        "conceptId": "unicode_cuba_1f1e8_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "kuban",
+    "candidates": [
+      {
+        "word": "cuban",
         "emoji": "🇨🇺",
         "conceptId": "unicode_cuba_1f1e8_1f1fa",
         "source": "exact"
@@ -6847,6 +8838,12 @@
         "word": "key",
         "emoji": "🗝️",
         "conceptId": "unicode_key_1f5dd_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "ki",
+        "emoji": "🇰🇮",
+        "conceptId": "unicode_kiribati_1f1f0_1f1ee",
         "source": "exact"
       }
     ]
@@ -6885,12 +8882,40 @@
     ]
   },
   {
+    "input": "lai",
+    "candidates": [
+      {
+        "word": "lie",
+        "emoji": "🇱🇮",
+        "conceptId": "unicode_liechtenstein_1f1f1_1f1ee",
+        "source": "exact"
+      },
+      {
+        "word": "ly",
+        "emoji": "🇱🇾",
+        "conceptId": "unicode_libya_1f1f1_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "laible",
     "candidates": [
       {
         "word": "label",
         "emoji": "🏷️",
         "conceptId": "unicode_label_1f3f7_fe0f",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lait",
+    "candidates": [
+      {
+        "word": "les",
+        "emoji": "🇱🇸",
+        "conceptId": "unicode_lesotho_1f1f1_1f1f8",
         "source": "exact"
       }
     ]
@@ -7006,6 +9031,17 @@
     ]
   },
   {
+    "input": "lau",
+    "candidates": [
+      {
+        "word": "lao",
+        "emoji": "🇱🇦",
+        "conceptId": "unicode_laos_1f1f1_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "laurey",
     "candidates": [
       {
@@ -7057,6 +9093,12 @@
         "emoji": "🎵",
         "conceptId": "music_note",
         "source": "exact"
+      },
+      {
+        "word": "la",
+        "emoji": "🇱🇦",
+        "conceptId": "unicode_laos_1f1f1_1f1e6",
+        "source": "exact"
       }
     ]
   },
@@ -7083,12 +9125,67 @@
     ]
   },
   {
+    "input": "lay",
+    "candidates": [
+      {
+        "word": "les",
+        "emoji": "🇱🇸",
+        "conceptId": "unicode_lesotho_1f1f1_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "laye",
+    "candidates": [
+      {
+        "word": "les",
+        "emoji": "🇱🇸",
+        "conceptId": "unicode_lesotho_1f1f1_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lea",
+    "candidates": [
+      {
+        "word": "li",
+        "emoji": "🇱🇮",
+        "conceptId": "unicode_liechtenstein_1f1f1_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lee",
+    "candidates": [
+      {
+        "word": "li",
+        "emoji": "🇱🇮",
+        "conceptId": "unicode_liechtenstein_1f1f1_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "leger",
     "candidates": [
       {
         "word": "ledger",
         "emoji": "📒",
         "conceptId": "unicode_ledger_1f4d2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lei",
+    "candidates": [
+      {
+        "word": "les",
+        "emoji": "🇱🇸",
+        "conceptId": "unicode_lesotho_1f1f1_1f1f8",
         "source": "exact"
       }
     ]
@@ -7111,6 +9208,17 @@
         "word": "leaf",
         "emoji": "🍃",
         "conceptId": "unicode_leaf_1f343",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lema",
+    "candidates": [
+      {
+        "word": "lima",
+        "emoji": "🇵🇪",
+        "conceptId": "unicode_peru_1f1f5_1f1ea",
         "source": "exact"
       }
     ]
@@ -7171,12 +9279,78 @@
     ]
   },
   {
+    "input": "less",
+    "candidates": [
+      {
+        "word": "les",
+        "emoji": "🇱🇸",
+        "conceptId": "unicode_lesotho_1f1f1_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "leu",
+    "candidates": [
+      {
+        "word": "lu",
+        "emoji": "🇱🇺",
+        "conceptId": "unicode_luxembourg_1f1f1_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lew",
+    "candidates": [
+      {
+        "word": "lu",
+        "emoji": "🇱🇺",
+        "conceptId": "unicode_luxembourg_1f1f1_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ley",
+    "candidates": [
+      {
+        "word": "les",
+        "emoji": "🇱🇸",
+        "conceptId": "unicode_lesotho_1f1f1_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "leyh",
+    "candidates": [
+      {
+        "word": "les",
+        "emoji": "🇱🇸",
+        "conceptId": "unicode_lesotho_1f1f1_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "lichtenstein",
     "candidates": [
       {
         "word": "liechtenstein",
         "emoji": "🇱🇮",
         "conceptId": "unicode_liechtenstein_1f1f1_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lie",
+    "candidates": [
+      {
+        "word": "ly",
+        "emoji": "🇱🇾",
+        "conceptId": "unicode_libya_1f1f1_1f1fe",
         "source": "exact"
       }
     ]
@@ -7248,6 +9422,17 @@
     ]
   },
   {
+    "input": "loo",
+    "candidates": [
+      {
+        "word": "lu",
+        "emoji": "🇱🇺",
+        "conceptId": "unicode_luxembourg_1f1f1_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "lorey",
     "candidates": [
       {
@@ -7298,6 +9483,61 @@
         "word": "lorry",
         "emoji": "🚛",
         "conceptId": "unicode_lorry_1f69b",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lot",
+    "candidates": [
+      {
+        "word": "lat",
+        "emoji": "🇱🇻",
+        "conceptId": "unicode_latvia_1f1f1_1f1fb",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lott",
+    "candidates": [
+      {
+        "word": "lat",
+        "emoji": "🇱🇻",
+        "conceptId": "unicode_latvia_1f1f1_1f1fb",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lotte",
+    "candidates": [
+      {
+        "word": "lat",
+        "emoji": "🇱🇻",
+        "conceptId": "unicode_latvia_1f1f1_1f1fb",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lou",
+    "candidates": [
+      {
+        "word": "lu",
+        "emoji": "🇱🇺",
+        "conceptId": "unicode_luxembourg_1f1f1_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lough",
+    "candidates": [
+      {
+        "word": "lao",
+        "emoji": "🇱🇦",
+        "conceptId": "unicode_laos_1f1f1_1f1e6",
         "source": "exact"
       }
     ]
@@ -7358,12 +9598,45 @@
     ]
   },
   {
+    "input": "lox",
+    "candidates": [
+      {
+        "word": "lux",
+        "emoji": "🇱🇺",
+        "conceptId": "unicode_luxembourg_1f1f1_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "lucke",
     "candidates": [
       {
         "word": "luck",
         "emoji": "🤞",
         "conceptId": "unicode_luck_1f91e",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lucks",
+    "candidates": [
+      {
+        "word": "lux",
+        "emoji": "🇱🇺",
+        "conceptId": "unicode_luxembourg_1f1f1_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lue",
+    "candidates": [
+      {
+        "word": "lu",
+        "emoji": "🇱🇺",
+        "conceptId": "unicode_luxembourg_1f1f1_1f1fa",
         "source": "exact"
       }
     ]
@@ -7383,10 +9656,27 @@
     "input": "luks",
     "candidates": [
       {
+        "word": "lux",
+        "emoji": "🇱🇺",
+        "conceptId": "unicode_luxembourg_1f1f1_1f1fa",
+        "source": "exact"
+      },
+      {
         "word": "lucks",
         "emoji": "🤞",
         "conceptId": "unicode_luck_1f91e",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "lunden",
+    "candidates": [
+      {
+        "word": "london",
+        "emoji": "🇬🇧",
+        "conceptId": "unicode_britain_1f1ec_1f1e7",
+        "source": "exact"
       }
     ]
   },
@@ -7398,6 +9688,45 @@
         "emoji": "➰",
         "conceptId": "unicode_loop_27b0",
         "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lye",
+    "candidates": [
+      {
+        "word": "lie",
+        "emoji": "🇱🇮",
+        "conceptId": "unicode_liechtenstein_1f1f1_1f1ee",
+        "source": "exact"
+      },
+      {
+        "word": "ly",
+        "emoji": "🇱🇾",
+        "conceptId": "unicode_libya_1f1f1_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lyke",
+    "candidates": [
+      {
+        "word": "like",
+        "emoji": "👍",
+        "conceptId": "llm_like_like",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "lykes",
+    "candidates": [
+      {
+        "word": "likes",
+        "emoji": "👍",
+        "conceptId": "llm_like_like",
+        "source": "plural"
       }
     ]
   },
@@ -7468,10 +9797,65 @@
     ]
   },
   {
+    "input": "maahs",
+    "candidates": [
+      {
+        "word": "mas",
+        "emoji": "🇲🇾",
+        "conceptId": "unicode_malaysia_1f1f2_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "maas",
+    "candidates": [
+      {
+        "word": "mas",
+        "emoji": "🇲🇾",
+        "conceptId": "unicode_malaysia_1f1f2_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "macao",
+    "candidates": [
+      {
+        "word": "macau",
+        "emoji": "🇲🇴",
+        "conceptId": "unicode_macao_1f1f2_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "macau",
     "candidates": [
       {
         "word": "macao",
+        "emoji": "🇲🇴",
+        "conceptId": "unicode_macao_1f1f2_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "mack",
+    "candidates": [
+      {
+        "word": "mac",
+        "emoji": "🇲🇴",
+        "conceptId": "unicode_macao_1f1f2_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "macke",
+    "candidates": [
+      {
+        "word": "mac",
         "emoji": "🇲🇴",
         "conceptId": "unicode_macao_1f1f2_1f1f4",
         "source": "exact"
@@ -7508,6 +9892,12 @@
         "emoji": "😠",
         "conceptId": "mood_mean",
         "source": "exact"
+      },
+      {
+        "word": "mad",
+        "emoji": "🇲🇬",
+        "conceptId": "unicode_madagascar_1f1f2_1f1ec",
+        "source": "exact"
       }
     ]
   },
@@ -7523,8 +9913,36 @@
     ]
   },
   {
+    "input": "mah",
+    "candidates": [
+      {
+        "word": "ma",
+        "emoji": "🇲🇦",
+        "conceptId": "unicode_morocco_1f1f2_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "maher",
+    "candidates": [
+      {
+        "word": "mar",
+        "emoji": "🇲🇦",
+        "conceptId": "unicode_morocco_1f1f2_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "mahn",
     "candidates": [
+      {
+        "word": "man",
+        "emoji": "👨",
+        "conceptId": "llm_mr_man",
+        "source": "exact"
+      },
       {
         "word": "man",
         "emoji": "👨",
@@ -7532,9 +9950,31 @@
         "source": "exact"
       },
       {
-        "word": "man",
+        "word": "mann",
         "emoji": "🇮🇲",
         "conceptId": "unicode_man_1f1ee_1f1f2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "mahr",
+    "candidates": [
+      {
+        "word": "mar",
+        "emoji": "🇲🇦",
+        "conceptId": "unicode_morocco_1f1f2_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "mai",
+    "candidates": [
+      {
+        "word": "my",
+        "emoji": "🇲🇾",
+        "conceptId": "unicode_malaysia_1f1f2_1f1fe",
         "source": "exact"
       }
     ]
@@ -7553,6 +9993,12 @@
         "emoji": "♂️",
         "conceptId": "unicode_male_2642_fe0f",
         "source": "exact"
+      },
+      {
+        "word": "male",
+        "emoji": "🇲🇻",
+        "conceptId": "unicode_maldives_1f1f2_1f1fb",
+        "source": "exact"
       }
     ]
   },
@@ -7569,6 +10015,12 @@
         "word": "male",
         "emoji": "♂️",
         "conceptId": "unicode_male_2642_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "male",
+        "emoji": "🇲🇻",
+        "conceptId": "unicode_maldives_1f1f2_1f1fb",
         "source": "exact"
       }
     ]
@@ -7587,6 +10039,12 @@
         "emoji": "♂️",
         "conceptId": "unicode_male_2642_fe0f",
         "source": "exact"
+      },
+      {
+        "word": "male",
+        "emoji": "🇲🇻",
+        "conceptId": "unicode_maldives_1f1f2_1f1fb",
+        "source": "exact"
       }
     ]
   },
@@ -7602,8 +10060,47 @@
     ]
   },
   {
+    "input": "mak",
+    "candidates": [
+      {
+        "word": "mac",
+        "emoji": "🇲🇴",
+        "conceptId": "unicode_macao_1f1f2_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "man",
+    "candidates": [
+      {
+        "word": "mann",
+        "emoji": "🇮🇲",
+        "conceptId": "unicode_man_1f1ee_1f1f2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "manilla",
+    "candidates": [
+      {
+        "word": "manila",
+        "emoji": "🇵🇭",
+        "conceptId": "unicode_philippines_1f1f5_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "mann",
     "candidates": [
+      {
+        "word": "man",
+        "emoji": "👨",
+        "conceptId": "llm_mr_man",
+        "source": "exact"
+      },
       {
         "word": "man",
         "emoji": "👨",
@@ -7624,11 +10121,17 @@
       {
         "word": "man",
         "emoji": "👨",
-        "conceptId": "person_man",
+        "conceptId": "llm_mr_man",
         "source": "exact"
       },
       {
         "word": "man",
+        "emoji": "👨",
+        "conceptId": "person_man",
+        "source": "exact"
+      },
+      {
+        "word": "mann",
         "emoji": "🇮🇲",
         "conceptId": "unicode_man_1f1ee_1f1f2",
         "source": "exact"
@@ -7665,6 +10168,28 @@
         "emoji": "🇮🇲",
         "conceptId": "unicode_man_1f1ee_1f1f2",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "maroney",
+    "candidates": [
+      {
+        "word": "moroni",
+        "emoji": "🇰🇲",
+        "conceptId": "unicode_comoros_1f1f0_1f1f2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "marr",
+    "candidates": [
+      {
+        "word": "mar",
+        "emoji": "🇲🇦",
+        "conceptId": "unicode_morocco_1f1f2_1f1e6",
+        "source": "exact"
       }
     ]
   },
@@ -7738,6 +10263,12 @@
     "input": "mau",
     "candidates": [
       {
+        "word": "mo",
+        "emoji": "🇲🇴",
+        "conceptId": "unicode_macao_1f1f2_1f1f4",
+        "source": "exact"
+      },
+      {
         "word": "mow",
         "emoji": "🚜",
         "conceptId": "action_mow",
@@ -7779,6 +10310,17 @@
     ]
   },
   {
+    "input": "mawr",
+    "candidates": [
+      {
+        "word": "mar",
+        "emoji": "🇲🇦",
+        "conceptId": "unicode_morocco_1f1f2_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "maxx",
     "candidates": [
       {
@@ -7802,6 +10344,34 @@
         "word": "male",
         "emoji": "♂️",
         "conceptId": "unicode_male_2642_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "male",
+        "emoji": "🇲🇻",
+        "conceptId": "unicode_maldives_1f1f2_1f1fb",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "maz",
+    "candidates": [
+      {
+        "word": "mas",
+        "emoji": "🇲🇾",
+        "conceptId": "unicode_malaysia_1f1f2_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "mea",
+    "candidates": [
+      {
+        "word": "me",
+        "emoji": "🇲🇪",
+        "conceptId": "unicode_montenegro_1f1f2_1f1ea",
         "source": "exact"
       }
     ]
@@ -7858,6 +10428,17 @@
         "word": "medal",
         "emoji": "🏅",
         "conceptId": "unicode_medal_1f3c5",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "mee",
+    "candidates": [
+      {
+        "word": "me",
+        "emoji": "🇲🇪",
+        "conceptId": "unicode_montenegro_1f1f2_1f1ea",
         "source": "exact"
       }
     ]
@@ -8086,12 +10667,51 @@
     ]
   },
   {
+    "input": "moan",
+    "candidates": [
+      {
+        "word": "mon",
+        "emoji": "🇲🇨",
+        "conceptId": "unicode_monaco_1f1f2_1f1e8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "moe",
     "candidates": [
+      {
+        "word": "mo",
+        "emoji": "🇲🇴",
+        "conceptId": "unicode_macao_1f1f2_1f1f4",
+        "source": "exact"
+      },
       {
         "word": "mow",
         "emoji": "🚜",
         "conceptId": "action_mow",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "moen",
+    "candidates": [
+      {
+        "word": "mon",
+        "emoji": "🇲🇨",
+        "conceptId": "unicode_monaco_1f1f2_1f1e8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "mohn",
+    "candidates": [
+      {
+        "word": "mon",
+        "emoji": "🇲🇨",
+        "conceptId": "unicode_monaco_1f1f2_1f1e8",
         "source": "exact"
       }
     ]
@@ -8141,6 +10761,17 @@
     ]
   },
   {
+    "input": "mone",
+    "candidates": [
+      {
+        "word": "mon",
+        "emoji": "🇲🇨",
+        "conceptId": "unicode_monaco_1f1f2_1f1e8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "monies",
     "candidates": [
       {
@@ -8158,6 +10789,28 @@
     ]
   },
   {
+    "input": "monn",
+    "candidates": [
+      {
+        "word": "mon",
+        "emoji": "🇲🇨",
+        "conceptId": "unicode_monaco_1f1f2_1f1e8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "moo",
+    "candidates": [
+      {
+        "word": "mu",
+        "emoji": "🇲🇺",
+        "conceptId": "unicode_mauritius_1f1f2_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "moone",
     "candidates": [
       {
@@ -8170,6 +10823,17 @@
         "word": "moon",
         "emoji": "🌑",
         "conceptId": "unicode_moon_1f311",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "moroney",
+    "candidates": [
+      {
+        "word": "moroni",
+        "emoji": "🇰🇲",
+        "conceptId": "unicode_comoros_1f1f0_1f1f2",
         "source": "exact"
       }
     ]
@@ -8197,6 +10861,17 @@
     ]
   },
   {
+    "input": "mow",
+    "candidates": [
+      {
+        "word": "mo",
+        "emoji": "🇲🇴",
+        "conceptId": "unicode_macao_1f1f2_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "mummey",
     "candidates": [
       {
@@ -8210,6 +10885,12 @@
   {
     "input": "munni",
     "candidates": [
+      {
+        "word": "money",
+        "emoji": "💰",
+        "conceptId": "llm_wages_money",
+        "source": "exact"
+      },
       {
         "word": "money",
         "emoji": "🤑",
@@ -8253,6 +10934,50 @@
     ]
   },
   {
+    "input": "nah",
+    "candidates": [
+      {
+        "word": "na",
+        "emoji": "🇳🇦",
+        "conceptId": "unicode_namibia_1f1f3_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "nahm",
+    "candidates": [
+      {
+        "word": "nam",
+        "emoji": "🇳🇦",
+        "conceptId": "unicode_namibia_1f1f3_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "naw",
+    "candidates": [
+      {
+        "word": "na",
+        "emoji": "🇳🇦",
+        "conceptId": "unicode_namibia_1f1f3_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "nay",
+    "candidates": [
+      {
+        "word": "ne",
+        "emoji": "🇳🇪",
+        "conceptId": "unicode_niger_1f1f3_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "neas",
     "candidates": [
       {
@@ -8286,6 +11011,17 @@
     ]
   },
   {
+    "input": "nedd",
+    "candidates": [
+      {
+        "word": "ned",
+        "emoji": "🇳🇱",
+        "conceptId": "unicode_netherlands_1f1f3_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "nedel",
     "candidates": [
       {
@@ -8303,6 +11039,18 @@
         "word": "knee",
         "emoji": "🦵",
         "conceptId": "body_knee",
+        "source": "exact"
+      },
+      {
+        "word": "ne",
+        "emoji": "🇳🇪",
+        "conceptId": "unicode_niger_1f1f3_1f1ea",
+        "source": "exact"
+      },
+      {
+        "word": "ni",
+        "emoji": "🇳🇮",
+        "conceptId": "unicode_nicaragua_1f1f3_1f1ee",
         "source": "exact"
       }
     ]
@@ -8341,6 +11089,28 @@
     ]
   },
   {
+    "input": "neighbour",
+    "candidates": [
+      {
+        "word": "neighbor",
+        "emoji": "🏠",
+        "conceptId": "llm_neighbor_house",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "neighbours",
+    "candidates": [
+      {
+        "word": "neighbors",
+        "emoji": "🏠",
+        "conceptId": "llm_neighbor_house",
+        "source": "plural"
+      }
+    ]
+  },
+  {
     "input": "neis",
     "candidates": [
       {
@@ -8348,6 +11118,17 @@
         "emoji": "🦵",
         "conceptId": "body_knee",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "nej",
+    "candidates": [
+      {
+        "word": "ne",
+        "emoji": "🇳🇪",
+        "conceptId": "unicode_niger_1f1f3_1f1ea",
+        "source": "exact"
       }
     ]
   },
@@ -8369,12 +11150,34 @@
     ]
   },
   {
+    "input": "new",
+    "candidates": [
+      {
+        "word": "nu",
+        "emoji": "🇳🇺",
+        "conceptId": "unicode_niue_1f1f3_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "nex",
     "candidates": [
       {
         "word": "next",
         "emoji": "⏭️",
         "conceptId": "unicode_next_23ed_fe0f",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ney",
+    "candidates": [
+      {
+        "word": "ne",
+        "emoji": "🇳🇪",
+        "conceptId": "unicode_niger_1f1f3_1f1ea",
         "source": "exact"
       }
     ]
@@ -8398,6 +11201,12 @@
         "emoji": "👨",
         "conceptId": "person_man",
         "source": "synonym"
+      },
+      {
+        "word": "guy",
+        "emoji": "🇬🇾",
+        "conceptId": "unicode_guyana_1f1ec_1f1fe",
+        "source": "exact"
       }
     ]
   },
@@ -8413,12 +11222,35 @@
     ]
   },
   {
+    "input": "nick",
+    "candidates": [
+      {
+        "word": "nic",
+        "emoji": "🇳🇮",
+        "conceptId": "unicode_nicaragua_1f1f3_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "nie",
     "candidates": [
       {
         "word": "knee",
         "emoji": "🦵",
         "conceptId": "body_knee",
+        "source": "exact"
+      },
+      {
+        "word": "ne",
+        "emoji": "🇳🇪",
+        "conceptId": "unicode_niger_1f1f3_1f1ea",
+        "source": "exact"
+      },
+      {
+        "word": "ni",
+        "emoji": "🇳🇮",
+        "conceptId": "unicode_nicaragua_1f1f3_1f1ee",
         "source": "exact"
       }
     ]
@@ -8457,6 +11289,17 @@
     ]
   },
   {
+    "input": "nik",
+    "candidates": [
+      {
+        "word": "nic",
+        "emoji": "🇳🇮",
+        "conceptId": "unicode_nicaragua_1f1f3_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "nite",
     "candidates": [
       {
@@ -8480,6 +11323,17 @@
         "word": "nose",
         "emoji": "👃",
         "conceptId": "unicode_nose_1f443",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "nohr",
+    "candidates": [
+      {
+        "word": "nor",
+        "emoji": "🇳🇴",
+        "conceptId": "unicode_norway_1f1f3_1f1f4",
         "source": "exact"
       }
     ]
@@ -8618,12 +11472,95 @@
     ]
   },
   {
+    "input": "ohh",
+    "candidates": [
+      {
+        "word": "au",
+        "emoji": "🇦🇺",
+        "conceptId": "unicode_australia_1f1e6_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "olde",
     "candidates": [
       {
         "word": "old",
         "emoji": "👴",
         "conceptId": "person_old_man",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ossa",
+    "candidates": [
+      {
+        "word": "asa",
+        "emoji": "🇦🇸",
+        "conceptId": "unicode_samoa_1f1e6_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "our",
+    "candidates": [
+      {
+        "word": "are",
+        "emoji": "🇦🇪",
+        "conceptId": "unicode_emirates_1f1e6_1f1ea",
+        "source": "exact"
+      },
+      {
+        "word": "ar",
+        "emoji": "🇦🇷",
+        "conceptId": "unicode_argentina_1f1e6_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "owe",
+    "candidates": [
+      {
+        "word": "au",
+        "emoji": "🇦🇺",
+        "conceptId": "unicode_australia_1f1e6_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "paar",
+    "candidates": [
+      {
+        "word": "par",
+        "emoji": "🇵🇾",
+        "conceptId": "unicode_paraguay_1f1f5_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "pac",
+    "candidates": [
+      {
+        "word": "pak",
+        "emoji": "🇵🇰",
+        "conceptId": "unicode_pakistan_1f1f5_1f1f0",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "pack",
+    "candidates": [
+      {
+        "word": "pak",
+        "emoji": "🇵🇰",
+        "conceptId": "unicode_pakistan_1f1f5_1f1f0",
         "source": "exact"
       }
     ]
@@ -8684,12 +11621,34 @@
     ]
   },
   {
+    "input": "pall",
+    "candidates": [
+      {
+        "word": "pol",
+        "emoji": "🇵🇱",
+        "conceptId": "unicode_poland_1f1f5_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "palme",
     "candidates": [
       {
         "word": "palm",
         "emoji": "🌴",
         "conceptId": "unicode_palm_1f334",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "paque",
+    "candidates": [
+      {
+        "word": "pak",
+        "emoji": "🇵🇰",
+        "conceptId": "unicode_pakistan_1f1f5_1f1f0",
         "source": "exact"
       }
     ]
@@ -8750,6 +11709,28 @@
     ]
   },
   {
+    "input": "parr",
+    "candidates": [
+      {
+        "word": "par",
+        "emoji": "🇵🇾",
+        "conceptId": "unicode_paraguay_1f1f5_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "parris",
+    "candidates": [
+      {
+        "word": "paris",
+        "emoji": "🇫🇷",
+        "conceptId": "unicode_france_1f1eb_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "parrott",
     "candidates": [
       {
@@ -8795,6 +11776,39 @@
         "word": "paw",
         "emoji": "🐾",
         "conceptId": "unicode_paw_1f43e",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "paul",
+    "candidates": [
+      {
+        "word": "pol",
+        "emoji": "🇵🇱",
+        "conceptId": "unicode_poland_1f1f5_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "paule",
+    "candidates": [
+      {
+        "word": "pol",
+        "emoji": "🇵🇱",
+        "conceptId": "unicode_poland_1f1f5_1f1f1",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "paull",
+    "candidates": [
+      {
+        "word": "pol",
+        "emoji": "🇵🇱",
+        "conceptId": "unicode_poland_1f1f5_1f1f1",
         "source": "exact"
       }
     ]
@@ -8888,6 +11902,17 @@
     ]
   },
   {
+    "input": "pearle",
+    "candidates": [
+      {
+        "word": "pearl",
+        "emoji": "⚪",
+        "conceptId": "llm_pearl_white_circle",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "pearse",
     "candidates": [
       {
@@ -8946,6 +11971,12 @@
         "emoji": "🖊️",
         "conceptId": "unicode_pen_1f58a_fe0f",
         "source": "exact"
+      },
+      {
+        "word": "pen",
+        "emoji": "🖋️",
+        "conceptId": "llm_poets_pen",
+        "source": "exact"
       }
     ]
   },
@@ -8962,6 +11993,12 @@
         "word": "pen",
         "emoji": "🖊️",
         "conceptId": "unicode_pen_1f58a_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "pen",
+        "emoji": "🖋️",
+        "conceptId": "llm_poets_pen",
         "source": "exact"
       }
     ]
@@ -9001,6 +12038,17 @@
     ]
   },
   {
+    "input": "per",
+    "candidates": [
+      {
+        "word": "pur",
+        "emoji": "🇵🇷",
+        "conceptId": "unicode_puerto_1f1f5_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "perce",
     "candidates": [
       {
@@ -9008,6 +12056,56 @@
         "emoji": "👛",
         "conceptId": "unicode_purse_1f45b",
         "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "pere",
+    "candidates": [
+      {
+        "word": "per",
+        "emoji": "🇵🇪",
+        "conceptId": "unicode_peru_1f1f5_1f1ea",
+        "source": "exact"
+      },
+      {
+        "word": "pur",
+        "emoji": "🇵🇷",
+        "conceptId": "unicode_puerto_1f1f5_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "perl",
+    "candidates": [
+      {
+        "word": "pearl",
+        "emoji": "⚪",
+        "conceptId": "llm_pearl_white_circle",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "perle",
+    "candidates": [
+      {
+        "word": "pearl",
+        "emoji": "⚪",
+        "conceptId": "llm_pearl_white_circle",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "perls",
+    "candidates": [
+      {
+        "word": "pearls",
+        "emoji": "⚪",
+        "conceptId": "llm_pearl_white_circle",
+        "source": "plural"
       }
     ]
   },
@@ -9078,6 +12176,39 @@
     ]
   },
   {
+    "input": "phew",
+    "candidates": [
+      {
+        "word": "few",
+        "emoji": "🤏",
+        "conceptId": "llm_few_small_amount",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "phi",
+    "candidates": [
+      {
+        "word": "fi",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "philippino",
+    "candidates": [
+      {
+        "word": "filipino",
+        "emoji": "🇵🇭",
+        "conceptId": "unicode_philippines_1f1f5_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "phish",
     "candidates": [
       {
@@ -9101,6 +12232,23 @@
         "word": "fishing",
         "emoji": "🎣",
         "conceptId": "unicode_fishing_1f3a3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "phy",
+    "candidates": [
+      {
+        "word": "fi",
+        "emoji": "🇫🇮",
+        "conceptId": "unicode_finland_1f1eb_1f1ee",
+        "source": "exact"
+      },
+      {
+        "word": "phi",
+        "emoji": "🇵🇭",
+        "conceptId": "unicode_philippines_1f1f5_1f1ed",
         "source": "exact"
       }
     ]
@@ -9407,6 +12555,12 @@
         "emoji": "🫗",
         "conceptId": "unicode_pour_1fad7",
         "source": "exact"
+      },
+      {
+        "word": "por",
+        "emoji": "🇵🇹",
+        "conceptId": "unicode_portugal_1f1f5_1f1f9",
+        "source": "exact"
       }
     ]
   },
@@ -9428,6 +12582,12 @@
         "word": "pour",
         "emoji": "🫗",
         "conceptId": "unicode_pour_1fad7",
+        "source": "exact"
+      },
+      {
+        "word": "por",
+        "emoji": "🇵🇹",
+        "conceptId": "unicode_portugal_1f1f5_1f1f9",
         "source": "exact"
       }
     ]
@@ -9477,6 +12637,50 @@
     ]
   },
   {
+    "input": "pour",
+    "candidates": [
+      {
+        "word": "por",
+        "emoji": "🇵🇹",
+        "conceptId": "unicode_portugal_1f1f5_1f1f9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "pre",
+    "candidates": [
+      {
+        "word": "pri",
+        "emoji": "🇵🇷",
+        "conceptId": "unicode_puerto_1f1f5_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "pree",
+    "candidates": [
+      {
+        "word": "pri",
+        "emoji": "🇵🇷",
+        "conceptId": "unicode_puerto_1f1f5_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "pri",
+    "candidates": [
+      {
+        "word": "pry",
+        "emoji": "🇵🇾",
+        "conceptId": "unicode_paraguay_1f1f5_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "pried",
     "candidates": [
       {
@@ -9510,6 +12714,17 @@
     ]
   },
   {
+    "input": "prix",
+    "candidates": [
+      {
+        "word": "pri",
+        "emoji": "🇵🇷",
+        "conceptId": "unicode_puerto_1f1f5_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "programme",
     "candidates": [
       {
@@ -9521,12 +12736,90 @@
     ]
   },
   {
+    "input": "pry",
+    "candidates": [
+      {
+        "word": "pri",
+        "emoji": "🇵🇷",
+        "conceptId": "unicode_puerto_1f1f5_1f1f7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "pryde",
     "candidates": [
       {
         "word": "pride",
         "emoji": "🏳️‍🌈",
         "conceptId": "concept_pride",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "psalm",
+    "candidates": [
+      {
+        "word": "som",
+        "emoji": "🇸🇴",
+        "conceptId": "unicode_somalia_1f1f8_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "psi",
+    "candidates": [
+      {
+        "word": "cy",
+        "emoji": "🇨🇾",
+        "conceptId": "unicode_cyprus_1f1e8_1f1fe",
+        "source": "exact"
+      },
+      {
+        "word": "sy",
+        "emoji": "🇸🇾",
+        "conceptId": "unicode_syria_1f1f8_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "pty",
+    "candidates": [
+      {
+        "word": "thai",
+        "emoji": "🇹🇭",
+        "conceptId": "unicode_thailand_1f1f9_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "pur",
+    "candidates": [
+      {
+        "word": "per",
+        "emoji": "🇵🇪",
+        "conceptId": "unicode_peru_1f1f5_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "purr",
+    "candidates": [
+      {
+        "word": "per",
+        "emoji": "🇵🇪",
+        "conceptId": "unicode_peru_1f1f5_1f1ea",
+        "source": "exact"
+      },
+      {
+        "word": "pur",
+        "emoji": "🇵🇷",
+        "conceptId": "unicode_puerto_1f1f5_1f1f7",
         "source": "exact"
       }
     ]
@@ -9565,12 +12858,34 @@
     ]
   },
   {
+    "input": "qian",
+    "candidates": [
+      {
+        "word": "gin",
+        "emoji": "🇬🇳",
+        "conceptId": "unicode_guinea_1f1ec_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "qing",
     "candidates": [
       {
         "word": "king",
         "emoji": "👑",
         "conceptId": "person_king",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "qom",
+    "candidates": [
+      {
+        "word": "com",
+        "emoji": "🇰🇲",
+        "conceptId": "unicode_comoros_1f1f0_1f1f2",
         "source": "exact"
       }
     ]
@@ -9589,6 +12904,12 @@
         "emoji": "🗝️",
         "conceptId": "unicode_key_1f5dd_fe0f",
         "source": "exact"
+      },
+      {
+        "word": "cay",
+        "emoji": "🇰🇾",
+        "conceptId": "unicode_cayman_1f1f0_1f1fe",
+        "source": "exact"
       }
     ]
   },
@@ -9605,6 +12926,23 @@
         "word": "key",
         "emoji": "🗝️",
         "conceptId": "unicode_key_1f5dd_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "cay",
+        "emoji": "🇰🇾",
+        "conceptId": "unicode_cayman_1f1f0_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "quaye",
+    "candidates": [
+      {
+        "word": "cay",
+        "emoji": "🇰🇾",
+        "conceptId": "unicode_cayman_1f1f0_1f1fe",
         "source": "exact"
       }
     ]
@@ -9639,6 +12977,12 @@
         "word": "key",
         "emoji": "🗝️",
         "conceptId": "unicode_key_1f5dd_fe0f",
+        "source": "exact"
+      },
+      {
+        "word": "ki",
+        "emoji": "🇰🇮",
+        "conceptId": "unicode_kiribati_1f1f0_1f1ee",
         "source": "exact"
       }
     ]
@@ -9683,12 +13027,45 @@
     ]
   },
   {
+    "input": "rader",
+    "candidates": [
+      {
+        "word": "raider",
+        "emoji": "🏴‍☠️",
+        "conceptId": "llm_raiders_pirate_flag",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "rae",
+    "candidates": [
+      {
+        "word": "re",
+        "emoji": "🇷🇪",
+        "conceptId": "unicode_reunion_1f1f7_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "rahm",
     "candidates": [
       {
         "word": "ram",
         "emoji": "🐏",
         "conceptId": "unicode_ram_1f40f",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "rahn",
+    "candidates": [
+      {
+        "word": "ran",
+        "emoji": "🏃",
+        "conceptId": "llm_ran_runner",
         "source": "exact"
       }
     ]
@@ -9761,6 +13138,17 @@
     ]
   },
   {
+    "input": "ramala",
+    "candidates": [
+      {
+        "word": "ramallah",
+        "emoji": "🇵🇸",
+        "conceptId": "unicode_palestine_1f1f5_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "ramm",
     "candidates": [
       {
@@ -9784,6 +13172,39 @@
         "word": "rains",
         "emoji": "☔",
         "conceptId": "unicode_rain_2614",
+        "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "ranh",
+    "candidates": [
+      {
+        "word": "ran",
+        "emoji": "🏃",
+        "conceptId": "llm_ran_runner",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "rann",
+    "candidates": [
+      {
+        "word": "ran",
+        "emoji": "🏃",
+        "conceptId": "llm_ran_runner",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ranz",
+    "candidates": [
+      {
+        "word": "rans",
+        "emoji": "🏃",
+        "conceptId": "llm_ran_runner",
         "source": "plural"
       }
     ]
@@ -9866,6 +13287,17 @@
     ]
   },
   {
+    "input": "ray",
+    "candidates": [
+      {
+        "word": "re",
+        "emoji": "🇷🇪",
+        "conceptId": "unicode_reunion_1f1f7_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "rayne",
     "candidates": [
       {
@@ -9896,6 +13328,17 @@
         "emoji": "☔",
         "conceptId": "unicode_rain_2614",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "rea",
+    "candidates": [
+      {
+        "word": "re",
+        "emoji": "🇷🇪",
+        "conceptId": "unicode_reunion_1f1f7_1f1ea",
+        "source": "exact"
       }
     ]
   },
@@ -9945,6 +13388,17 @@
     ]
   },
   {
+    "input": "reaume",
+    "candidates": [
+      {
+        "word": "room",
+        "emoji": "🚪",
+        "conceptId": "llm_room_room",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "reckard",
     "candidates": [
       {
@@ -9968,6 +13422,28 @@
         "word": "red",
         "emoji": "🔴",
         "conceptId": "unicode_red_1f534",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "ree",
+    "candidates": [
+      {
+        "word": "re",
+        "emoji": "🇷🇪",
+        "conceptId": "unicode_reunion_1f1f7_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "rega",
+    "candidates": [
+      {
+        "word": "riga",
+        "emoji": "🇱🇻",
+        "conceptId": "unicode_latvia_1f1f1_1f1fb",
         "source": "exact"
       }
     ]
@@ -10125,8 +13601,47 @@
     ]
   },
   {
+    "input": "rew",
+    "candidates": [
+      {
+        "word": "ru",
+        "emoji": "🇷🇺",
+        "conceptId": "unicode_russia_1f1f7_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "rey",
+    "candidates": [
+      {
+        "word": "re",
+        "emoji": "🇷🇪",
+        "conceptId": "unicode_reunion_1f1f7_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "rho",
+    "candidates": [
+      {
+        "word": "ro",
+        "emoji": "🇷🇴",
+        "conceptId": "unicode_romania_1f1f7_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "rhoad",
     "candidates": [
+      {
+        "word": "road",
+        "emoji": "🛣️",
+        "conceptId": "llm_boulevard_road",
+        "source": "exact"
+      },
       {
         "word": "road",
         "emoji": "🛣️",
@@ -10169,6 +13684,12 @@
       {
         "word": "road",
         "emoji": "🛣️",
+        "conceptId": "llm_boulevard_road",
+        "source": "exact"
+      },
+      {
+        "word": "road",
+        "emoji": "🛣️",
         "conceptId": "distance_mile",
         "source": "exact"
       },
@@ -10188,6 +13709,17 @@
         "emoji": "🛣️",
         "conceptId": "distance_mile",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "rhome",
+    "candidates": [
+      {
+        "word": "rome",
+        "emoji": "🇮🇹",
+        "conceptId": "unicode_italy_1f1ee_1f1f9",
+        "source": "exact"
       }
     ]
   },
@@ -10258,6 +13790,17 @@
     ]
   },
   {
+    "input": "riyad",
+    "candidates": [
+      {
+        "word": "riyadh",
+        "emoji": "🇸🇦",
+        "conceptId": "unicode_saudi_1f1f8_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "roades",
     "candidates": [
       {
@@ -10265,6 +13808,17 @@
         "emoji": "🛣️",
         "conceptId": "distance_mile",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "roam",
+    "candidates": [
+      {
+        "word": "rome",
+        "emoji": "🇮🇹",
+        "conceptId": "unicode_italy_1f1ee_1f1f9",
+        "source": "exact"
       }
     ]
   },
@@ -10353,6 +13907,12 @@
       {
         "word": "road",
         "emoji": "🛣️",
+        "conceptId": "llm_boulevard_road",
+        "source": "exact"
+      },
+      {
+        "word": "road",
+        "emoji": "🛣️",
         "conceptId": "distance_mile",
         "source": "exact"
       },
@@ -10376,8 +13936,25 @@
     ]
   },
   {
+    "input": "roe",
+    "candidates": [
+      {
+        "word": "ro",
+        "emoji": "🇷🇴",
+        "conceptId": "unicode_romania_1f1f7_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "roed",
     "candidates": [
+      {
+        "word": "road",
+        "emoji": "🛣️",
+        "conceptId": "llm_boulevard_road",
+        "source": "exact"
+      },
       {
         "word": "road",
         "emoji": "🛣️",
@@ -10389,6 +13966,17 @@
         "emoji": "🛣️",
         "conceptId": "place_way",
         "source": "synonym"
+      }
+    ]
+  },
+  {
+    "input": "roehm",
+    "candidates": [
+      {
+        "word": "rome",
+        "emoji": "🇮🇹",
+        "conceptId": "unicode_italy_1f1ee_1f1f9",
+        "source": "exact"
       }
     ]
   },
@@ -10404,8 +13992,25 @@
     ]
   },
   {
+    "input": "roh",
+    "candidates": [
+      {
+        "word": "ro",
+        "emoji": "🇷🇴",
+        "conceptId": "unicode_romania_1f1f7_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "rohde",
     "candidates": [
+      {
+        "word": "road",
+        "emoji": "🛣️",
+        "conceptId": "llm_boulevard_road",
+        "source": "exact"
+      },
       {
         "word": "road",
         "emoji": "🛣️",
@@ -10421,12 +14026,45 @@
     ]
   },
   {
+    "input": "rohm",
+    "candidates": [
+      {
+        "word": "rome",
+        "emoji": "🇮🇹",
+        "conceptId": "unicode_italy_1f1ee_1f1f9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "rohs",
     "candidates": [
       {
         "word": "rose",
         "emoji": "🌹",
         "conceptId": "plant_rose",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "rolm",
+    "candidates": [
+      {
+        "word": "rome",
+        "emoji": "🇮🇹",
+        "conceptId": "unicode_italy_1f1ee_1f1f9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "roome",
+    "candidates": [
+      {
+        "word": "room",
+        "emoji": "🚪",
+        "conceptId": "llm_room_room",
         "source": "exact"
       }
     ]
@@ -10498,8 +14136,25 @@
     ]
   },
   {
+    "input": "row",
+    "candidates": [
+      {
+        "word": "ro",
+        "emoji": "🇷🇴",
+        "conceptId": "unicode_romania_1f1f7_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "rowed",
     "candidates": [
+      {
+        "word": "road",
+        "emoji": "🛣️",
+        "conceptId": "llm_boulevard_road",
+        "source": "exact"
+      },
       {
         "word": "road",
         "emoji": "🛣️",
@@ -10548,6 +14203,17 @@
     ]
   },
   {
+    "input": "rue",
+    "candidates": [
+      {
+        "word": "ru",
+        "emoji": "🇷🇺",
+        "conceptId": "unicode_russia_1f1f7_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "ruetz",
     "candidates": [
       {
@@ -10555,6 +14221,50 @@
         "emoji": "🫜",
         "conceptId": "unicode_root_1fadc",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "rusch",
+    "candidates": [
+      {
+        "word": "rush",
+        "emoji": "💨",
+        "conceptId": "llm_rush_speed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "rusche",
+    "candidates": [
+      {
+        "word": "rush",
+        "emoji": "💨",
+        "conceptId": "llm_rush_speed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "russ",
+    "candidates": [
+      {
+        "word": "rus",
+        "emoji": "🇷🇺",
+        "conceptId": "unicode_russia_1f1f7_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "russe",
+    "candidates": [
+      {
+        "word": "rus",
+        "emoji": "🇷🇺",
+        "conceptId": "unicode_russia_1f1f7_1f1fa",
+        "source": "exact"
       }
     ]
   },
@@ -10576,6 +14286,28 @@
         "word": "sob",
         "emoji": "😭",
         "conceptId": "unicode_sob_1f62d",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "saal",
+    "candidates": [
+      {
+        "word": "sol",
+        "emoji": "🇸🇧",
+        "conceptId": "unicode_solomon_1f1f8_1f1e7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "saam",
+    "candidates": [
+      {
+        "word": "som",
+        "emoji": "🇸🇴",
+        "conceptId": "unicode_somalia_1f1f8_1f1f4",
         "source": "exact"
       }
     ]
@@ -10614,12 +14346,73 @@
     ]
   },
   {
+    "input": "sahl",
+    "candidates": [
+      {
+        "word": "sol",
+        "emoji": "🇸🇧",
+        "conceptId": "unicode_solomon_1f1f8_1f1e7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sahm",
+    "candidates": [
+      {
+        "word": "sam",
+        "emoji": "🇼🇸",
+        "conceptId": "unicode_samoa_1f1fc_1f1f8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sai",
+    "candidates": [
+      {
+        "word": "cy",
+        "emoji": "🇨🇾",
+        "conceptId": "unicode_cyprus_1f1e8_1f1fe",
+        "source": "exact"
+      },
+      {
+        "word": "sy",
+        "emoji": "🇸🇾",
+        "conceptId": "unicode_syria_1f1f8_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "salm",
+    "candidates": [
+      {
+        "word": "som",
+        "emoji": "🇸🇴",
+        "conceptId": "unicode_somalia_1f1f8_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "salvatore",
     "candidates": [
       {
         "word": "salvador",
         "emoji": "🇸🇻",
         "conceptId": "unicode_salvador_1f1f8_1f1fb",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sande",
+    "candidates": [
+      {
+        "word": "sand",
+        "emoji": "⏳",
+        "conceptId": "llm_dune_sand",
         "source": "exact"
       }
     ]
@@ -10642,6 +14435,17 @@
         "word": "santa",
         "emoji": "🎅",
         "conceptId": "unicode_santa_1f385",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sarejevo",
+    "candidates": [
+      {
+        "word": "sarajevo",
+        "emoji": "🇧🇦",
+        "conceptId": "unicode_bosnia_1f1e7_1f1e6",
         "source": "exact"
       }
     ]
@@ -10697,6 +14501,17 @@
         "word": "saudi",
         "emoji": "🇸🇦",
         "conceptId": "unicode_saudi_1f1f8_1f1e6",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "say",
+    "candidates": [
+      {
+        "word": "se",
+        "emoji": "🇸🇪",
+        "conceptId": "unicode_sweden_1f1f8_1f1ea",
         "source": "exact"
       }
     ]
@@ -10832,6 +14647,17 @@
         "emoji": "👕",
         "conceptId": "unicode_shirt_1f455",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "schield",
+    "candidates": [
+      {
+        "word": "shield",
+        "emoji": "🛡️",
+        "conceptId": "llm_crusade_shield",
+        "source": "exact"
       }
     ]
   },
@@ -10972,12 +14798,40 @@
     ]
   },
   {
+    "input": "schutter",
+    "candidates": [
+      {
+        "word": "shutter",
+        "emoji": "📸",
+        "conceptId": "llm_shutter_camera_shutter",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "sci",
     "candidates": [
       {
         "word": "sea",
         "emoji": "🌊",
         "conceptId": "place_ocean",
+        "source": "exact"
+      },
+      {
+        "word": "si",
+        "emoji": "🇸🇮",
+        "conceptId": "unicode_slovenia_1f1f8_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sea",
+    "candidates": [
+      {
+        "word": "si",
+        "emoji": "🇸🇮",
+        "conceptId": "unicode_slovenia_1f1f8_1f1ee",
         "source": "exact"
       }
     ]
@@ -11023,6 +14877,12 @@
         "emoji": "🌊",
         "conceptId": "place_ocean",
         "source": "exact"
+      },
+      {
+        "word": "si",
+        "emoji": "🇸🇮",
+        "conceptId": "unicode_slovenia_1f1f8_1f1ee",
+        "source": "exact"
       }
     ]
   },
@@ -11060,6 +14920,17 @@
     ]
   },
   {
+    "input": "sein",
+    "candidates": [
+      {
+        "word": "sign",
+        "emoji": "🪧",
+        "conceptId": "llm_billboards_sign",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "seize",
     "candidates": [
       {
@@ -11067,6 +14938,39 @@
         "emoji": "🌊",
         "conceptId": "place_ocean",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "senn",
+    "candidates": [
+      {
+        "word": "sen",
+        "emoji": "🇸🇳",
+        "conceptId": "unicode_senegal_1f1f8_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "senne",
+    "candidates": [
+      {
+        "word": "sen",
+        "emoji": "🇸🇳",
+        "conceptId": "unicode_senegal_1f1f8_1f1f3",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "seoul",
+    "candidates": [
+      {
+        "word": "sol",
+        "emoji": "🇸🇧",
+        "conceptId": "unicode_solomon_1f1f8_1f1e7",
+        "source": "exact"
       }
     ]
   },
@@ -11099,6 +15003,17 @@
         "word": "service",
         "emoji": "🈂️",
         "conceptId": "unicode_service_1f202_fe0f",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sew",
+    "candidates": [
+      {
+        "word": "so",
+        "emoji": "🇸🇴",
+        "conceptId": "unicode_somalia_1f1f8_1f1f4",
         "source": "exact"
       }
     ]
@@ -11156,6 +15071,17 @@
         "word": "shoe",
         "emoji": "👞",
         "conceptId": "unicode_shoe_1f45e",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "shh",
+    "candidates": [
+      {
+        "word": "sh",
+        "emoji": "🇸🇭",
+        "conceptId": "unicode_helena_1f1f8_1f1ed",
         "source": "exact"
       }
     ]
@@ -11250,6 +15176,17 @@
     ]
   },
   {
+    "input": "shri",
+    "candidates": [
+      {
+        "word": "sri",
+        "emoji": "🇱🇰",
+        "conceptId": "unicode_srilanka_1f1f1_1f1f0",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "shu",
     "candidates": [
       {
@@ -11313,6 +15250,12 @@
         "emoji": "🌊",
         "conceptId": "place_ocean",
         "source": "exact"
+      },
+      {
+        "word": "si",
+        "emoji": "🇸🇮",
+        "conceptId": "unicode_slovenia_1f1f8_1f1ee",
+        "source": "exact"
       }
     ]
   },
@@ -11339,6 +15282,17 @@
     ]
   },
   {
+    "input": "sine",
+    "candidates": [
+      {
+        "word": "sign",
+        "emoji": "🪧",
+        "conceptId": "llm_billboards_sign",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "singh",
     "candidates": [
       {
@@ -11356,6 +15310,28 @@
         "word": "sync",
         "emoji": "🔄",
         "conceptId": "unicode_sync_1f504",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sinn",
+    "candidates": [
+      {
+        "word": "sin",
+        "emoji": "🇸🇬",
+        "conceptId": "unicode_singapore_1f1f8_1f1ec",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sir",
+    "candidates": [
+      {
+        "word": "sur",
+        "emoji": "🇸🇷",
+        "conceptId": "unicode_suriname_1f1f8_1f1f7",
         "source": "exact"
       }
     ]
@@ -11416,6 +15392,17 @@
     ]
   },
   {
+    "input": "smyth",
+    "candidates": [
+      {
+        "word": "smith",
+        "emoji": "⚒️",
+        "conceptId": "llm_smith_blacksmith",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "snapp",
     "candidates": [
       {
@@ -11455,10 +15442,55 @@
     ]
   },
   {
+    "input": "sohl",
+    "candidates": [
+      {
+        "word": "seoul",
+        "emoji": "🇰🇷",
+        "conceptId": "unicode_southkorea_1f1f0_1f1f7",
+        "source": "exact"
+      },
+      {
+        "word": "sol",
+        "emoji": "🇸🇧",
+        "conceptId": "unicode_solomon_1f1f8_1f1e7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "solaman",
     "candidates": [
       {
         "word": "solomon",
+        "emoji": "🇸🇧",
+        "conceptId": "unicode_solomon_1f1f8_1f1e7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sole",
+    "candidates": [
+      {
+        "word": "seoul",
+        "emoji": "🇰🇷",
+        "conceptId": "unicode_southkorea_1f1f0_1f1f7",
+        "source": "exact"
+      },
+      {
+        "word": "sol",
+        "emoji": "🇸🇧",
+        "conceptId": "unicode_solomon_1f1f8_1f1e7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "soll",
+    "candidates": [
+      {
+        "word": "sol",
         "emoji": "🇸🇧",
         "conceptId": "unicode_solomon_1f1f8_1f1e7",
         "source": "exact"
@@ -11526,6 +15558,12 @@
       },
       {
         "word": "sunrise",
+        "emoji": "🌅",
+        "conceptId": "llm_rises_sunrise",
+        "source": "exact"
+      },
+      {
+        "word": "sunrise",
         "emoji": "🌄",
         "conceptId": "unicode_sunrise_1f304",
         "source": "exact"
@@ -11550,6 +15588,17 @@
     ]
   },
   {
+    "input": "sooy",
+    "candidates": [
+      {
+        "word": "sui",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "sope",
     "candidates": [
       {
@@ -11561,12 +15610,68 @@
     ]
   },
   {
+    "input": "sophia",
+    "candidates": [
+      {
+        "word": "sofia",
+        "emoji": "🇧🇬",
+        "conceptId": "unicode_bulgaria_1f1e7_1f1ec",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "sorry",
     "candidates": [
       {
         "word": "sari",
         "emoji": "🥻",
         "conceptId": "unicode_sari_1f97b",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "soul",
+    "candidates": [
+      {
+        "word": "seoul",
+        "emoji": "🇰🇷",
+        "conceptId": "unicode_southkorea_1f1f0_1f1f7",
+        "source": "exact"
+      },
+      {
+        "word": "sol",
+        "emoji": "🇸🇧",
+        "conceptId": "unicode_solomon_1f1f8_1f1e7",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sow",
+    "candidates": [
+      {
+        "word": "so",
+        "emoji": "🇸🇴",
+        "conceptId": "unicode_somalia_1f1f8_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "sowle",
+    "candidates": [
+      {
+        "word": "seoul",
+        "emoji": "🇰🇷",
+        "conceptId": "unicode_southkorea_1f1f0_1f1f7",
+        "source": "exact"
+      },
+      {
+        "word": "sol",
+        "emoji": "🇸🇧",
+        "conceptId": "unicode_solomon_1f1f8_1f1e7",
         "source": "exact"
       }
     ]
@@ -11667,6 +15772,17 @@
         "emoji": "🥩",
         "conceptId": "unicode_steak_1f969",
         "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "stanly",
+    "candidates": [
+      {
+        "word": "stanley",
+        "emoji": "🇫🇰",
+        "conceptId": "unicode_falkland_1f1eb_1f1f0",
+        "source": "exact"
       }
     ]
   },
@@ -11826,6 +15942,17 @@
     ]
   },
   {
+    "input": "streich",
+    "candidates": [
+      {
+        "word": "strike",
+        "emoji": "⚡",
+        "conceptId": "llm_strikes_strike",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "stu",
     "candidates": [
       {
@@ -11848,12 +15975,56 @@
     ]
   },
   {
+    "input": "sueker",
+    "candidates": [
+      {
+        "word": "sucre",
+        "emoji": "🇧🇴",
+        "conceptId": "unicode_bolivia_1f1e7_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "suen",
     "candidates": [
       {
         "word": "soon",
         "emoji": "🔜",
         "conceptId": "unicode_soon_1f51c",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "suess",
+    "candidates": [
+      {
+        "word": "swiss",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "suey",
+    "candidates": [
+      {
+        "word": "sui",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "suisse",
+    "candidates": [
+      {
+        "word": "swiss",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
         "source": "exact"
       }
     ]
@@ -11876,6 +16047,17 @@
         "word": "swan",
         "emoji": "🦢",
         "conceptId": "unicode_swan_1f9a2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "swasey",
+    "candidates": [
+      {
+        "word": "swazi",
+        "emoji": "🇸🇿",
+        "conceptId": "unicode_eswatini_1f1f8_1f1ff",
         "source": "exact"
       }
     ]
@@ -11914,12 +16096,56 @@
     ]
   },
   {
+    "input": "swiss",
+    "candidates": [
+      {
+        "word": "suisse",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "syn",
+    "candidates": [
+      {
+        "word": "sin",
+        "emoji": "🇸🇬",
+        "conceptId": "unicode_singapore_1f1f8_1f1ec",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "syron",
     "candidates": [
       {
         "word": "siren",
         "emoji": "🚨",
         "conceptId": "unicode_siren_1f6a8",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "tae",
+    "candidates": [
+      {
+        "word": "thai",
+        "emoji": "🇹🇭",
+        "conceptId": "unicode_thailand_1f1f9_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "tai",
+    "candidates": [
+      {
+        "word": "thai",
+        "emoji": "🇹🇭",
+        "conceptId": "unicode_thailand_1f1f9_1f1ed",
         "source": "exact"
       }
     ]
@@ -11932,6 +16158,17 @@
         "emoji": "📖",
         "conceptId": "object_story",
         "source": "synonym"
+      }
+    ]
+  },
+  {
+    "input": "tann",
+    "candidates": [
+      {
+        "word": "tan",
+        "emoji": "🇹🇿",
+        "conceptId": "unicode_tanzania_1f1f9_1f1ff",
+        "source": "exact"
       }
     ]
   },
@@ -12009,6 +16246,12 @@
         "emoji": "🕑",
         "conceptId": "unicode_two_1f551",
         "source": "exact"
+      },
+      {
+        "word": "to",
+        "emoji": "🇹🇴",
+        "conceptId": "unicode_tonga_1f1f9_1f1f4",
+        "source": "exact"
       }
     ]
   },
@@ -12046,6 +16289,61 @@
     ]
   },
   {
+    "input": "tie",
+    "candidates": [
+      {
+        "word": "thai",
+        "emoji": "🇹🇭",
+        "conceptId": "unicode_thailand_1f1f9_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "timbs",
+    "candidates": [
+      {
+        "word": "tims",
+        "emoji": "✖️",
+        "conceptId": "llm_times_multiplication",
+        "source": "plural"
+      }
+    ]
+  },
+  {
+    "input": "timm",
+    "candidates": [
+      {
+        "word": "tim",
+        "emoji": "✖️",
+        "conceptId": "llm_times_multiplication",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "timme",
+    "candidates": [
+      {
+        "word": "tim",
+        "emoji": "✖️",
+        "conceptId": "llm_times_multiplication",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "timms",
+    "candidates": [
+      {
+        "word": "tims",
+        "emoji": "✖️",
+        "conceptId": "llm_times_multiplication",
+        "source": "plural"
+      }
+    ]
+  },
+  {
     "input": "tkach",
     "candidates": [
       {
@@ -12068,12 +16366,29 @@
     ]
   },
   {
+    "input": "tonne",
+    "candidates": [
+      {
+        "word": "ton",
+        "emoji": "🇹🇴",
+        "conceptId": "unicode_tonga_1f1f9_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "too",
     "candidates": [
       {
         "word": "two",
         "emoji": "🕑",
         "conceptId": "unicode_two_1f551",
+        "source": "exact"
+      },
+      {
+        "word": "to",
+        "emoji": "🇹🇴",
+        "conceptId": "unicode_tonga_1f1f9_1f1f4",
         "source": "exact"
       }
     ]
@@ -12167,12 +16482,34 @@
     ]
   },
   {
+    "input": "trie",
+    "candidates": [
+      {
+        "word": "tri",
+        "emoji": "🇹🇹",
+        "conceptId": "unicode_trinidad_1f1f9_1f1f9",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "trieu",
     "candidates": [
       {
         "word": "true",
         "emoji": "✅",
         "conceptId": "concept_actually",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "try",
+    "candidates": [
+      {
+        "word": "tri",
+        "emoji": "🇹🇹",
+        "conceptId": "unicode_trinidad_1f1f9_1f1f9",
         "source": "exact"
       }
     ]
@@ -12185,6 +16522,34 @@
         "emoji": "🌊",
         "conceptId": "place_ocean",
         "source": "exact"
+      },
+      {
+        "word": "si",
+        "emoji": "🇸🇮",
+        "conceptId": "unicode_slovenia_1f1f8_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "tso",
+    "candidates": [
+      {
+        "word": "so",
+        "emoji": "🇸🇴",
+        "conceptId": "unicode_somalia_1f1f8_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "tsui",
+    "candidates": [
+      {
+        "word": "sui",
+        "emoji": "🇨🇭",
+        "conceptId": "unicode_switzerland_1f1e8_1f1ed",
+        "source": "exact"
       }
     ]
   },
@@ -12195,6 +16560,12 @@
         "word": "two",
         "emoji": "🕑",
         "conceptId": "unicode_two_1f551",
+        "source": "exact"
+      },
+      {
+        "word": "to",
+        "emoji": "🇹🇴",
+        "conceptId": "unicode_tonga_1f1f9_1f1f4",
         "source": "exact"
       }
     ]
@@ -12234,6 +16605,28 @@
     ]
   },
   {
+    "input": "two",
+    "candidates": [
+      {
+        "word": "to",
+        "emoji": "🇹🇴",
+        "conceptId": "unicode_tonga_1f1f9_1f1f4",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "tye",
+    "candidates": [
+      {
+        "word": "thai",
+        "emoji": "🇹🇭",
+        "conceptId": "unicode_thailand_1f1f9_1f1ed",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "tyger",
     "candidates": [
       {
@@ -12251,12 +16644,84 @@
     ]
   },
   {
+    "input": "umm",
+    "candidates": [
+      {
+        "word": "um",
+        "emoji": "🇺🇲",
+        "conceptId": "unicode_islands_1f1fa_1f1f2",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "urey",
+    "candidates": [
+      {
+        "word": "ury",
+        "emoji": "🇺🇾",
+        "conceptId": "unicode_uruguay_1f1fa_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "uri",
+    "candidates": [
+      {
+        "word": "ury",
+        "emoji": "🇺🇾",
+        "conceptId": "unicode_uruguay_1f1fa_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "urie",
+    "candidates": [
+      {
+        "word": "ury",
+        "emoji": "🇺🇾",
+        "conceptId": "unicode_uruguay_1f1fa_1f1fe",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "uwe",
     "candidates": [
       {
         "word": "you",
         "emoji": "🫵",
         "conceptId": "pronoun_you",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "vann",
+    "candidates": [
+      {
+        "word": "van",
+        "emoji": "🇻🇺",
+        "conceptId": "unicode_vanuatu_1f1fb_1f1fa",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "vee",
+    "candidates": [
+      {
+        "word": "ve",
+        "emoji": "🇻🇪",
+        "conceptId": "unicode_venezuela_1f1fb_1f1ea",
+        "source": "exact"
+      },
+      {
+        "word": "vi",
+        "emoji": "🇻🇮",
+        "conceptId": "unicode_virgin_1f1fb_1f1ee",
         "source": "exact"
       }
     ]
@@ -12295,6 +16760,17 @@
     ]
   },
   {
+    "input": "vie",
+    "candidates": [
+      {
+        "word": "vi",
+        "emoji": "🇻🇮",
+        "conceptId": "unicode_virgin_1f1fb_1f1ee",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "volcanoes",
     "candidates": [
       {
@@ -12312,6 +16788,17 @@
         "word": "watch",
         "emoji": "⌚",
         "conceptId": "unicode_watch_231a",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "wagg",
+    "candidates": [
+      {
+        "word": "wag",
+        "emoji": "💰",
+        "conceptId": "llm_wages_money",
         "source": "exact"
       }
     ]
@@ -12686,6 +17173,17 @@
     ]
   },
   {
+    "input": "whether",
+    "candidates": [
+      {
+        "word": "weather",
+        "emoji": "⛈️",
+        "conceptId": "llm_hail_weather",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "whey",
     "candidates": [
       {
@@ -12747,6 +17245,17 @@
         "word": "whiskey",
         "emoji": "🥃",
         "conceptId": "unicode_whiskey_1f943",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "who",
+    "candidates": [
+      {
+        "word": "hu",
+        "emoji": "🇭🇺",
+        "conceptId": "unicode_hungary_1f1ed_1f1fa",
         "source": "exact"
       }
     ]
@@ -13080,6 +17589,28 @@
     ]
   },
   {
+    "input": "yee",
+    "candidates": [
+      {
+        "word": "ye",
+        "emoji": "🇾🇪",
+        "conceptId": "unicode_yemen_1f1fe_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "yeh",
+    "candidates": [
+      {
+        "word": "ye",
+        "emoji": "🇾🇪",
+        "conceptId": "unicode_yemen_1f1fe_1f1ea",
+        "source": "exact"
+      }
+    ]
+  },
+  {
     "input": "yene",
     "candidates": [
       {
@@ -13097,6 +17628,17 @@
         "word": "you",
         "emoji": "🫵",
         "conceptId": "pronoun_you",
+        "source": "exact"
+      }
+    ]
+  },
+  {
+    "input": "yie",
+    "candidates": [
+      {
+        "word": "ye",
+        "emoji": "🇾🇪",
+        "conceptId": "unicode_yemen_1f1fe_1f1ea",
         "source": "exact"
       }
     ]

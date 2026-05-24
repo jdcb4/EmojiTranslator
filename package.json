@@ -1,7 +1,7 @@
 {
   "name": "emoji-translator",
   "private": true,
-  "version": "0.19.0",
+  "version": "0.28.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -21,6 +21,8 @@
     "prompt:candidates": "tsx scripts/buildOpenRouterPrompt.ts",
     "llm:candidates": "tsx scripts/reviewCandidatesWithOpenRouter.ts",
     "summarise:llm": "tsx scripts/summariseLlmSuggestions.ts",
+    "promote:llm-candidates": "tsx scripts/promoteLlmCandidateSuggestions.ts",
+    "augment:flags": "tsx scripts/augmentNationalFlagMappings.ts",
     "fetch:unicode": "tsx scripts/fetchUnicodeEmojiBase.ts",
     "llm:unicode": "tsx scripts/reviewUnicodeEmojiWithOpenRouter.ts",
     "promote:unicode": "tsx scripts/promoteUnicodeEmojiMappings.ts",
@@ -36,7 +38,6 @@
     "verify": "pnpm run typecheck && pnpm run lint && pnpm test && pnpm run build:frontend && pnpm run build:api:node"
   },
   "dependencies": {
-    "@hono/node-server": "^2.0.3",
     "@hono/node-server": "^2.0.3",
     "double-metaphone": "^2.0.1",
     "hono": "latest",

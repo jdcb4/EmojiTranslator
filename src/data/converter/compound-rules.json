@@ -60,6 +60,12 @@
     "rule": "compound"
   },
   {
+    "input": "strangelove",
+    "parts": ["strange", "love"],
+    "emoji": "❓❤️",
+    "rule": "compound"
+  },
+  {
     "input": "goodfellas",
     "parts": ["good", "fellas"],
     "emoji": "👍👨",
@@ -147,6 +153,96 @@
     "input": "decade",
     "parts": ["deck", "aid"],
     "emoji": "🃏⛑️",
+    "rule": "partial_word"
+  },
+  {
+    "input": "upon",
+    "parts": ["up", "on"],
+    "emoji": "⬆️💡",
+    "rule": "partial_word"
+  },
+  {
+    "input": "chinatown",
+    "parts": ["china", "town"],
+    "emoji": "🇨🇳🏘️",
+    "rule": "partial_word"
+  },
+  {
+    "input": "downfall",
+    "parts": ["down", "fall"],
+    "emoji": "⬇️🍂",
+    "rule": "partial_word"
+  },
+  {
+    "input": "fargo",
+    "parts": ["far", "go"],
+    "emoji": "🔭🚶",
+    "rule": "partial_word"
+  },
+  {
+    "input": "fellowship",
+    "parts": ["fellow", "ship"],
+    "emoji": "👥🚢",
+    "rule": "partial_word"
+  },
+  {
+    "input": "hacksaw",
+    "parts": ["hack", "saw"],
+    "emoji": "💻🪚",
+    "rule": "partial_word"
+  },
+  {
+    "input": "handmaiden",
+    "parts": ["hand", "maiden"],
+    "emoji": "✋👧",
+    "rule": "partial_word"
+  },
+  {
+    "input": "mockingbird",
+    "parts": ["mock", "bird"],
+    "emoji": "🤡🐦",
+    "rule": "partial_word"
+  },
+  {
+    "input": "scarface",
+    "parts": ["scar", "face"],
+    "emoji": "🩹👤",
+    "rule": "partial_word"
+  },
+  {
+    "input": "trainspotting",
+    "parts": ["train", "spotting"],
+    "emoji": "🚂🔍",
+    "rule": "partial_word"
+  },
+  {
+    "input": "washington",
+    "parts": ["wash", "ton"],
+    "emoji": "🧼⚖️",
+    "rule": "partial_word"
+  },
+  {
+    "input": "waterfront",
+    "parts": ["water", "front"],
+    "emoji": "💧➡",
+    "rule": "partial_word"
+  },
+  {
+    "input": "indiana",
+    "parts": ["india", "no"],
+    "emoji": "🇮🇳🚫",
+    "rule": "partial_word"
+  },
+  {
+    "input": "interstellar",
+    "parts": ["enter", "stellar"],
+    "emoji": "🚪⭐",
+    "rule": "partial_word"
+  },
+  {
+    "input": "lebowski",
+    "parts": ["bow", "ski"],
+    "emoji": "🎀🎿",
     "rule": "partial_word"
   }
 ]

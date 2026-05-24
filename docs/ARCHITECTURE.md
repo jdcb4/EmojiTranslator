@@ -52,6 +52,10 @@ Partial-word conversion exists as reviewed entries in `src/data/converter/compou
 
 Exact dictionary homophone conversion uses a generated static table at `src/data/converter/pronunciation-homophones.json`. The generator uses CMUdict during local tooling only; the browser and Worker runtime do not load the full pronunciation dictionary.
 
+Data maintenance scripts are documented in `docs/DATA_TOOLING.md`. The runtime
+does not call OpenRouter, REST Countries, Unicode endpoints, or CMUdict; those
+are local maintenance inputs used to update committed JSON data.
+
 ## Deployment Boundaries
 
 The monorepo intentionally produces separate deployable artifacts:

@@ -87,6 +87,10 @@ Rebus mode applies token rules in this order:
 - Prefer no clue over a misleading clue.
 - Plural words use two repeated emoji by default unless an explicit small number supplies the exact count.
 - `and` uses `+` to preserve title structure without adding a misleading emoji.
+- `it` and `IT` use the computer clue `💻`.
+- `how` uses a question mark clue `❓`.
+- `buy` uses a shopping cart clue `🛒`, and `bye` uses a waving hand clue `👋`.
+- `by`-style words can use reviewed homophones where appropriate, such as `by` -> `buy` -> `🛒` and `bi` -> `bye` -> `👋`.
 - Singing words use a microphone-led clue.
   - `sing`, `singin`, `singing` -> `🎤🎵`
 - Combo concepts may use multiple emoji when a single emoji would be misleading.
@@ -95,6 +99,8 @@ Rebus mode applies token rules in this order:
   - `before` -> `⬅️`
   - `back` -> `↩️`
   - `future` -> `🔮`
+- Regional flag emoji include aliases for country or region names, alternate spellings, capital cities, demonyms, and short codes where available.
+  - `France`, `French`, `Paris`, and `FR` -> `🇫🇷`
 - Imported homophone lists are promoted conservatively. Clear true homophones can be added to `homophones.json`; single-letter aliases, risky function-word mappings, and homophones that fight a clearer literal reading are skipped.
 - Partial-word rebus mappings must be explicitly reviewed and stored; the converter does not auto-segment arbitrary words.
 - Exact dictionary homophone fallback is generated from CMUdict into static data. It only uses identical pronunciations, rejects large candidate buckets, excludes most very short inputs, and scores below reviewed partial-word rules.

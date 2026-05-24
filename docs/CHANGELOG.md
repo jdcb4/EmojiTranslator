@@ -2,6 +2,67 @@
 
 Notable changes by version. Newest entries go at the top.
 
+## 0.28.1 - 2026-05-24
+
+- Consolidated OpenRouter candidate-review scripts onto the shared helper module.
+- Added data-tooling documentation for corpus analysis, LLM review, Unicode ingestion, flag enrichment, and homophone regeneration.
+- Updated coverage documentation with the current 250-title sample result.
+
+## 0.28.0 - 2026-05-24
+
+- Added a reviewed `mary -> marry` homophone mapping to the wedding emoji `💒`.
+- Added regression coverage for the Mary/marry rebus mapping.
+
+## 0.27.0 - 2026-05-24
+
+- Mapped `swear` and common inflections to the red exclamation mark `❗`.
+- Added a regression test for direct `Swear` conversion.
+
+## 0.26.0 - 2026-05-24
+
+- Promoted `strangelove` to a reviewed compound rule as `strange + love` -> `❓❤️`.
+- Added a regression test so `Strangelove` is accepted in strict mode rather than only appearing as a weak programmatic fallback.
+
+## 0.25.0 - 2026-05-24
+
+- Added a reviewed `infinity`/`infinite` mapping to the infinity symbol `♾️`.
+- Added a regression test for direct infinity conversion.
+
+## 0.24.0 - 2026-05-24
+
+- Added repeatable flag augmentation tooling using REST Countries metadata.
+- Enriched all 259 regional-indicator flag concepts with short codes, country or region names, alternate spellings, capitals, and demonyms where available.
+- Added special-region metadata for Unicode regional flags that are not returned by REST Countries.
+- Prevented short flag codes from being used as generated part-word chunks while keeping them available as full-word mappings.
+- Regenerated pronunciation homophones after the enlarged flag mapping set.
+
+## 0.23.0 - 2026-05-24
+
+- Added explicit mappings for `it`/`IT` -> `💻`, `how` -> `❓`, `buy` -> `🛒`, and `bye` -> `👋`.
+- Added reviewed rebus homophones for `by`/`bys` via `buy`, and `bi` via `bye`.
+- Added regression tests for these short-word and by-style homophone mappings.
+
+## 0.22.0 - 2026-05-24
+
+- Added repeatable promotion tooling for high-confidence LLM-reviewed corpus candidates.
+- Tested the supplied 250-title movie corpus before and after LLM-assisted mapping expansion.
+- Promoted 89 movie-corpus-derived mappings: 68 concepts, 6 homophones, and 15 part-word rules.
+- Regenerated pronunciation homophones after the new concept mappings were added.
+
+## 0.21.0 - 2026-05-24
+
+- Added a copy-to-clipboard icon button beside the emoji output.
+- Expanded sample titles with longer accepted examples.
+- Removed a duplicate package dependency entry.
+
+## 0.20.0 - 2026-05-24
+
+- Simplified the frontend to a hybrid-only title translator with no visible API, mode, or difficulty controls.
+- Moved the emoji result above the input form and replaced technical confidence/accepted fields with human-readable match-quality labels.
+- Replaced weak-match warnings with a single stronger no-match message.
+- Collapsed token rule explanations behind a closed-by-default rules panel.
+- Added extra mobile bottom spacing so the title input remains usable when phone keyboards appear.
+
 ## 0.19.0 - 2026-05-24
 
 - Added a Node/Railway API entrypoint alongside the existing Cloudflare Worker API.

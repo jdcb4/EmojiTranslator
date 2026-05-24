@@ -13,6 +13,27 @@
     "confidence": 0.9
   },
   {
+    "input": "by",
+    "soundsLike": "buy",
+    "emoji": "🛒",
+    "confidence": 0.88,
+    "example": "By uses the buy sound-alike"
+  },
+  {
+    "input": "bys",
+    "soundsLike": "buys",
+    "emoji": "🛒🛒",
+    "confidence": 0.82,
+    "example": "Plural bys uses the buys sound-alike"
+  },
+  {
+    "input": "bi",
+    "soundsLike": "bye",
+    "emoji": "👋",
+    "confidence": 0.82,
+    "example": "Bi can use the bye sound-alike"
+  },
+  {
     "input": "to",
     "soundsLike": "two",
     "emoji": "2️⃣",
@@ -227,6 +248,13 @@
     "emoji": "🐎",
     "confidence": 0.82,
     "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "mary",
+    "soundsLike": "marry",
+    "emoji": "💒",
+    "confidence": 0.88,
+    "example": "Mary uses the marry sound-alike"
   },
   {
     "input": "meet",
@@ -493,5 +521,47 @@
     "emoji": "🐑",
     "confidence": 0.86,
     "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "barry",
+    "soundsLike": "berry",
+    "emoji": "🍓",
+    "confidence": 0.9,
+    "example": "Promoted from movie corpus LLM review: Phonetic match to berry."
+  },
+  {
+    "input": "leon",
+    "soundsLike": "lion",
+    "emoji": "🦁",
+    "confidence": 0.85,
+    "example": "Promoted from movie corpus LLM review: Latin root and phonetic proximity to lion"
+  },
+  {
+    "input": "hur",
+    "soundsLike": "her",
+    "emoji": "👩",
+    "confidence": 0.9,
+    "example": "Promoted from movie corpus LLM review: Near-exact homophone."
+  },
+  {
+    "input": "jai",
+    "soundsLike": "jay",
+    "emoji": "🐦",
+    "confidence": 0.8,
+    "example": "Promoted from movie corpus LLM review: Phonetic homophone for the bird (Blue Jay)."
+  },
+  {
+    "input": "klaus",
+    "soundsLike": "claws",
+    "emoji": "🐾",
+    "confidence": 0.9,
+    "example": "Promoted from movie corpus LLM review: Direct homophone for 'claws'."
+  },
+  {
+    "input": "harry",
+    "soundsLike": "hairy",
+    "emoji": "🧔",
+    "confidence": 0.75,
+    "example": "Promoted from movie corpus LLM review: Visual pun on facial hair/hirsute"
   }
 ]

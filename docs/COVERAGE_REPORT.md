@@ -10,33 +10,41 @@ The starter dataset lives at `src/data/converter/movie-title-test-set.json`.
 
 Use this report to decide whether to add direct mappings, conservative synonyms, homophones, partial-word rules, or explicit manual-review cases. Movie-specific overrides are deprecated and are not used by hybrid coverage.
 
-## Current Baseline
+## Current 250-Title Sample
 
-Last run on 2026-05-23:
+Last run on 2026-05-24 against `C:\Users\joedo\OneDrive\Desktop\Movies.txt`
+after the latest reviewed mappings:
 
 ```text
-Movie titles tested: 100
+Corpus titles tested: 250
 
-Excellent: 74
-Usable: 16
-Needs review: 0
-Rejected: 10
+Excellent: 92
+Usable: 54
+Needs review: 23
+Rejected: 81
 
-Average confidence: 0.85
-Average emoji length: 2.6
+Accepted: 146 / 250 (58.4%)
+Average confidence: 0.65
+Average emoji length: 3.2
 
 Top unmapped title words:
-1. gump - 1
-2. redemption - 1
-3. ryan - 1
-4. lebowski - 1
-5. aladdin - 1
-6. shrek - 1
-7. e - 1
-8. kane - 1
-9. mary - 1
-10. poppins - 1
+1. episode - 3
+2. lives - 2
+3. m - 2
+4. verse - 2
+5. your - 2
+6. across - 1
+7. affair - 1
+8. amadeus - 1
+9. amelie - 1
+10. apocalypse - 1
 ```
+
+The latest generated artifact is `review/movies-250-current.json`.
+
+## Starter Dataset Baseline
+
+Generate the starter 100-title dataset with `pnpm run analyse:coverage`.
 
 ## Broad Corpus Review Run
 

@@ -7,7 +7,7 @@ describe('App', () => {
     render(<App />);
 
     expect(
-      screen.getByRole('heading', { name: 'Movie Title Emoji Converter' }),
+      screen.getByRole('heading', { name: 'Emoji Translator' }),
     ).toBeInTheDocument();
   });
 });

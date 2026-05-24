@@ -187,6 +187,10 @@ function exactChunkMatch(chunk: string): PartWordChunkMatch | null {
     return null;
   }
 
+  if (chunk.length <= 3 && regionalFlagConcept(candidate.concept)) {
+    return null;
+  }
+
   return {
     chunk,
     matchedWord: chunk,
@@ -194,6 +198,17 @@ function exactChunkMatch(chunk: string): PartWordChunkMatch | null {
     source: 'exact',
     score: candidate.score,
   };
+}
+
+function regionalFlagConcept(concept: EmojiConcept) {
+  const codepoints = [...concept.emoji].map((char) => char.codePointAt(0) ?? 0);
+
+  return (
+    codepoints.length === 2 &&
+    codepoints.every(
+      (codepoint) => codepoint >= 0x1f1e6 && codepoint <= 0x1f1ff,
+    )
+  );
 }
 
 function homophoneChunkMatch(chunk: string): PartWordChunkMatch | null {

@@ -1,212 +1,191 @@
 import { useEffect, useState } from 'react';
 
 import { Body, Caption, Heading, Subtle } from '../../components/ui/typography';
-import type {
-  ConversionDifficulty,
-  ConversionMode,
-  ConversionResult,
-} from '../../types/conversion';
+import type { ConversionResult } from '../../types/conversion';
 
 const SAMPLE_TITLES = [
   'The Lion King',
-  'Spider-Man',
-  'Ocean’s Eleven',
-  'I, Robot',
-  'Before Sunrise',
-  'Back to the Future',
-];
-
-const MODES: Array<{ label: string; value: ConversionMode }> = [
-  { label: 'Hybrid', value: 'hybrid' },
-  { label: 'Strict title', value: 'strict' },
-  { label: 'Rebus', value: 'rebus' },
-];
-
-const DIFFICULTIES: Array<{ label: string; value: ConversionDifficulty }> = [
-  { label: 'Easy', value: 'easy' },
-  { label: 'Medium', value: 'medium' },
-  { label: 'Hard', value: 'hard' },
+  'Beauty and the Beast',
+  'The Lord of the Rings: The Return of the King',
+  'Everything Everywhere All at Once',
+  'The Man Who Would Be King',
+  'The Silence of the Lambs',
+  'The Grand Budapest Hotel',
+  'A Clockwork Orange',
 ];
 
 const fieldClass =
-  'w-full rounded-default border border-border-default bg-surface-sunken px-3 py-2 text-body text-text-primary outline-none transition focus:border-accent-primary';
+  'w-full scroll-mb-32 rounded-default border border-border-default bg-surface-sunken px-3 py-3 text-body text-text-primary outline-none transition focus:border-accent-primary';
 
 const buttonClass =
-  'rounded-default border border-border-strong bg-accent-primary px-4 py-2 text-body-sm font-semibold text-text-on-accent transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50';
+  'w-full rounded-default border border-border-strong bg-accent-primary px-4 py-3 text-body-sm font-semibold text-text-on-accent transition hover:opacity-90 sm:w-auto';
 
-async function convertWithApi(
-  title: string,
-  mode: ConversionMode,
-  difficulty: ConversionDifficulty,
-) {
-  const response = await fetch('/api/convert', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      title,
-      options: { mode, targetDifficulty: difficulty },
-    }),
-  });
+const iconButtonClass =
+  'grid size-11 shrink-0 place-items-center rounded-default border border-border-default bg-surface-sunken text-h4 text-text-secondary transition hover:border-accent-primary hover:text-text-primary disabled:cursor-not-allowed disabled:opacity-40';
 
-  if (!response.ok) {
-    throw new Error(`API returned ${response.status}`);
-  }
-
-  return (await response.json()) as ConversionResult;
-}
-
-async function convertLocally(
-  title: string,
-  mode: ConversionMode,
-  difficulty: ConversionDifficulty,
-) {
+async function convertLocally(title: string) {
   const { convertMovieTitleToEmoji } =
     await import('../../domain/converter/convertTitle');
 
-  return convertMovieTitleToEmoji(title, {
-    mode,
-    targetDifficulty: difficulty,
-  });
+  return convertMovieTitleToEmoji(title, { mode: 'hybrid' });
+}
+
+async function copyTextToClipboard(text: string) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.left = '-9999px';
+    textarea.style.top = '0';
+    document.body.append(textarea);
+    textarea.focus();
+    textarea.select();
+
+    const copied = document.execCommand('copy');
+    textarea.remove();
+
+    return copied;
+  }
+}
+
+function resultStatus(result: ConversionResult | null) {
+  if (!result) {
+    return { label: 'Loading', tone: 'border-border-default' };
+  }
+
+  if (!result.emoji || result.confidence < 0.25) {
+    return { label: 'No Match', tone: 'border-accent-danger' };
+  }
+
+  if (result.confidence >= 0.9) {
+    return { label: 'Great match!', tone: 'border-accent-success' };
+  }
+
+  if (result.confidence >= 0.7) {
+    return { label: 'Good match.', tone: 'border-accent-success' };
+  }
+
+  if (result.confidence >= 0.5) {
+    return { label: 'OK match.', tone: 'border-accent-warning' };
+  }
+
+  return { label: 'Bad match.', tone: 'border-accent-danger' };
 }
 
 export function ConverterPage() {
   const [title, setTitle] = useState('The Lion King');
-  const [mode, setMode] = useState<ConversionMode>('hybrid');
-  const [difficulty, setDifficulty] = useState<ConversionDifficulty>('medium');
-  const [useApi, setUseApi] = useState(false);
-  const [apiStatus, setApiStatus] = useState<string | null>(null);
-  const [apiBusy, setApiBusy] = useState(false);
-  const [apiResult, setApiResult] = useState<ConversionResult | null>(null);
-  const [localResult, setLocalResult] = useState<ConversionResult | null>(null);
+  const [submittedTitle, setSubmittedTitle] = useState('The Lion King');
+  const [result, setResult] = useState<ConversionResult | null>(null);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     let active = true;
 
-    void convertLocally(title, mode, difficulty).then((nextResult) => {
-      if (!active) {
-        return;
+    void convertLocally(submittedTitle).then((nextResult) => {
+      if (active) {
+        setResult(nextResult);
       }
-
-      setLocalResult(nextResult);
     });
 
     return () => {
       active = false;
     };
-  }, [difficulty, mode, title]);
+  }, [submittedTitle]);
 
-  const result = apiResult ?? localResult;
-  const confidenceLabel = result
-    ? `${Math.round(result.confidence * 100)}%`
-    : 'Loading';
+  const status = resultStatus(result);
+  const showNoMatchMessage = Boolean(
+    result && (!result.emoji || !result.accepted),
+  );
 
-  async function handleConvert() {
-    setApiStatus(null);
-
-    if (!useApi) {
-      setApiResult(null);
+  async function handleCopy() {
+    if (!result?.emoji) {
       return;
     }
 
-    setApiBusy(true);
-
-    try {
-      setApiResult(await convertWithApi(title, mode, difficulty));
-      setApiStatus('API response');
-    } catch {
-      setApiResult(null);
-      setApiStatus('API unavailable; local engine used');
-    } finally {
-      setApiBusy(false);
-    }
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 1600);
+    await copyTextToClipboard(result.emoji);
   }
 
   return (
-    <main className="min-h-dvh bg-surface-base text-text-primary">
-      <div className="mx-auto grid min-h-dvh w-full max-w-6xl gap-8 px-6 py-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-start">
-        <section className="space-y-6">
-          <div className="space-y-3">
-            <Caption>EmojiTranslator</Caption>
-            <Heading display level={1}>
-              Movie Title Emoji Converter
-            </Heading>
+    <main className="min-h-dvh bg-surface-base pb-[max(7rem,env(safe-area-inset-bottom))] text-text-primary sm:pb-8">
+      <div className="mx-auto grid min-h-dvh w-full max-w-4xl gap-6 px-5 py-7 sm:px-6 lg:py-10">
+        <section className="space-y-2">
+          <Heading level={1}>Emoji Translator</Heading>
+          <Body className="m-0 max-w-2xl text-text-secondary">
+            Convert movie titles into emoji strings. Not everything can be
+            translated.
+          </Body>
+        </section>
+
+        <section className="space-y-5">
+          <div className="rounded-default border border-border-subtle bg-surface-raised p-5 shadow-sm sm:p-6">
+            <div className="flex flex-wrap items-start justify-between gap-4">
+              <div className="min-w-0 flex-1 space-y-2">
+                <Caption>Result</Caption>
+                <div className="flex items-start gap-3">
+                  <div className="min-w-0 break-words text-display font-semibold leading-none">
+                    {result ? (result.emoji ?? 'No match') : 'Loading'}
+                  </div>
+                  <button
+                    aria-label={
+                      copied ? 'Copied emoji output' : 'Copy emoji output'
+                    }
+                    className={iconButtonClass}
+                    disabled={!result?.emoji}
+                    onClick={() => void handleCopy()}
+                    title={copied ? 'Copied' : 'Copy emoji'}
+                    type="button"
+                  >
+                    {copied ? '✓' : '📋'}
+                  </button>
+                </div>
+              </div>
+              <div
+                className={`rounded-default border bg-surface-sunken px-3 py-2 text-left ${status.tone}`}
+              >
+                <Subtle className="m-0">Match quality</Subtle>
+                <Body className="m-0 font-semibold">{status.label}</Body>
+              </div>
+            </div>
+
+            {showNoMatchMessage ? (
+              <div className="mt-5 rounded-default border border-accent-danger bg-surface-sunken p-4">
+                <Body className="m-0 font-semibold text-text-primary">
+                  Sorry, we couldn't come up with a good match. Feel free to try
+                  something else!
+                </Body>
+              </div>
+            ) : null}
           </div>
 
           <form
-            className="space-y-5 rounded-default border border-border-subtle bg-surface-raised p-5"
+            className="space-y-5 rounded-default border border-border-subtle bg-surface-raised p-5 shadow-sm sm:p-6"
             onSubmit={(event) => {
               event.preventDefault();
-              void handleConvert();
+              setCopied(false);
+              setSubmittedTitle(title);
             }}
           >
             <label className="block space-y-2">
               <span className="text-body-sm font-medium text-text-secondary">
-                Title
+                Movie title
               </span>
               <input
                 className={fieldClass}
-                onChange={(event) => setTitle(event.target.value)}
+                onChange={(event) => {
+                  setCopied(false);
+                  setTitle(event.target.value);
+                }}
                 value={title}
               />
             </label>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              <label className="block space-y-2">
-                <span className="text-body-sm font-medium text-text-secondary">
-                  Mode
-                </span>
-                <select
-                  className={fieldClass}
-                  onChange={(event) => {
-                    setApiResult(null);
-                    setMode(event.target.value as ConversionMode);
-                  }}
-                  value={mode}
-                >
-                  {MODES.map((item) => (
-                    <option key={item.value} value={item.value}>
-                      {item.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-
-              <label className="block space-y-2">
-                <span className="text-body-sm font-medium text-text-secondary">
-                  Difficulty
-                </span>
-                <select
-                  className={fieldClass}
-                  onChange={(event) => {
-                    setApiResult(null);
-                    setDifficulty(event.target.value as ConversionDifficulty);
-                  }}
-                  value={difficulty}
-                >
-                  {DIFFICULTIES.map((item) => (
-                    <option key={item.value} value={item.value}>
-                      {item.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            </div>
-
-            <label className="flex items-center gap-3 text-body-sm text-text-secondary">
-              <input
-                checked={useApi}
-                className="size-4 accent-accent-primary"
-                onChange={(event) => {
-                  setApiResult(null);
-                  setUseApi(event.target.checked);
-                }}
-                type="checkbox"
-              />
-              Use API endpoint
-            </label>
-
-            <button className={buttonClass} disabled={apiBusy} type="submit">
-              {apiBusy ? 'Converting' : 'Convert'}
+            <button className={buttonClass} type="submit">
+              Translate
             </button>
           </form>
 
@@ -218,8 +197,9 @@ export function ConverterPage() {
                   className="rounded-default border border-border-default bg-surface-raised px-3 py-2 text-body-sm text-text-secondary transition hover:border-accent-primary hover:text-text-primary"
                   key={sample}
                   onClick={() => {
-                    setApiResult(null);
+                    setCopied(false);
                     setTitle(sample);
+                    setSubmittedTitle(sample);
                   }}
                   type="button"
                 >
@@ -228,50 +208,12 @@ export function ConverterPage() {
               ))}
             </div>
           </div>
-        </section>
-
-        <section className="space-y-5">
-          <div className="rounded-default border border-border-subtle bg-surface-raised p-5">
-            <div className="flex flex-wrap items-start justify-between gap-4">
-              <div className="space-y-2">
-                <Caption>{apiStatus ?? 'Local deterministic engine'}</Caption>
-                <div className="text-display font-semibold leading-none">
-                  {result ? (result.emoji ?? 'Needs review') : 'Loading'}
-                </div>
-              </div>
-              <div className="rounded-default border border-border-default bg-surface-sunken px-3 py-2 text-right">
-                <Subtle className="m-0">Confidence</Subtle>
-                <Body className="m-0 font-semibold">{confidenceLabel}</Body>
-              </div>
-            </div>
-
-            <div className="mt-5 grid gap-3 sm:grid-cols-3">
-              <Metric label="Mode" value={result?.modeUsed ?? '-'} />
-              <Metric
-                label="Accepted"
-                value={result ? (result.accepted ? 'Yes' : 'Review') : '-'}
-              />
-              <Metric
-                label="Tokens"
-                value={String(result?.tokens.length ?? 0)}
-              />
-            </div>
-          </div>
-
-          {result && result.warnings.length > 0 ? (
-            <div className="rounded-default border border-border-default bg-surface-raised p-4">
-              <Caption>Warnings</Caption>
-              <ul className="mt-3 space-y-2 text-body-sm text-text-secondary">
-                {result.warnings.map((warning) => (
-                  <li key={warning}>{warning}</li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
 
           {result ? (
-            <div className="rounded-default border border-border-subtle bg-surface-raised p-5">
-              <Caption>Rules Used</Caption>
+            <details className="rounded-default border border-border-subtle bg-surface-raised p-5 shadow-sm">
+              <summary className="cursor-pointer text-body-sm font-semibold text-text-secondary">
+                Rules used
+              </summary>
               <div className="mt-4 divide-y divide-border-subtle">
                 {result.tokens.map((token) => (
                   <div
@@ -284,48 +226,10 @@ export function ConverterPage() {
                   </div>
                 ))}
               </div>
-            </div>
+            </details>
           ) : null}
-
-          {result && result.alternatives.length > 0 ? (
-            <div className="rounded-default border border-border-subtle bg-surface-raised p-5">
-              <Caption>Alternatives</Caption>
-              <div className="mt-4 grid gap-3">
-                {result.alternatives.map((alternative) => (
-                  <div
-                    className="flex items-center justify-between gap-4 rounded-compact border border-border-subtle bg-surface-sunken px-3 py-2"
-                    key={`${alternative.modeUsed}-${alternative.emoji ?? 'none'}`}
-                  >
-                    <Body className="m-0">
-                      {alternative.emoji ?? 'No clue'}
-                    </Body>
-                    <Subtle className="m-0">
-                      {alternative.modeUsed} ·{' '}
-                      {Math.round(alternative.confidence * 100)}%
-                    </Subtle>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ) : null}
-
-          <div className="rounded-default border border-border-subtle bg-surface-raised p-5">
-            <Caption>API</Caption>
-            <code className="mt-3 block overflow-x-auto rounded-compact bg-surface-sunken px-3 py-2 text-body-sm text-text-secondary">
-              POST /api/convert
-            </code>
-          </div>
         </section>
       </div>
     </main>
-  );
-}
-
-function Metric({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="rounded-compact border border-border-subtle bg-surface-sunken px-3 py-2">
-      <Subtle className="m-0">{label}</Subtle>
-      <Body className="m-0 font-semibold">{value}</Body>
-    </div>
   );
 }
