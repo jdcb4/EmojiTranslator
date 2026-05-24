@@ -2,6 +2,22 @@
 
 Notable changes by version. Newest entries go at the top.
 
+## 0.31.0 - 2026-05-24
+
+- Simplified result-card labels by renaming `Result` to `Emojified title`.
+- Removed redundant Clipboard and Match quality panel titles.
+- Renamed the submit button to `Emojify!`.
+
+## 0.30.0 - 2026-05-24
+
+- Removed the visible scroll behavior from the emoji output line.
+- Kept clipboard and match-quality panels side by side on mobile.
+
+## 0.29.0 - 2026-05-24
+
+- Improved the mobile result card layout so long emoji strings sit above the clipboard and match-quality controls.
+- Standardised the clipboard and match-quality panels with matching sizing and alignment.
+
 ## 0.28.1 - 2026-05-24
 
 - Consolidated OpenRouter candidate-review scripts onto the shared helper module.

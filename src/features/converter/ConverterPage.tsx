@@ -21,7 +21,10 @@ const buttonClass =
   'w-full rounded-default border border-border-strong bg-accent-primary px-4 py-3 text-body-sm font-semibold text-text-on-accent transition hover:opacity-90 sm:w-auto';
 
 const iconButtonClass =
-  'grid size-11 shrink-0 place-items-center rounded-default border border-border-default bg-surface-sunken text-h4 text-text-secondary transition hover:border-accent-primary hover:text-text-primary disabled:cursor-not-allowed disabled:opacity-40';
+  'grid size-9 shrink-0 place-items-center rounded-default border border-border-default bg-surface-raised text-h4 text-text-secondary transition hover:border-accent-primary hover:text-text-primary disabled:cursor-not-allowed disabled:opacity-40';
+
+const resultMetaClass =
+  'min-h-16 rounded-default border bg-surface-sunken px-2 py-2 sm:px-3';
 
 async function convertLocally(title: string) {
   const { convertMovieTitleToEmoji } =
@@ -123,12 +126,23 @@ export function ConverterPage() {
 
         <section className="space-y-5">
           <div className="rounded-default border border-border-subtle bg-surface-raised p-5 shadow-sm sm:p-6">
-            <div className="flex flex-wrap items-start justify-between gap-4">
-              <div className="min-w-0 flex-1 space-y-2">
-                <Caption>Result</Caption>
-                <div className="flex items-start gap-3">
-                  <div className="min-w-0 break-words text-display font-semibold leading-none">
+            <div className="space-y-4">
+              <div className="space-y-2">
+                <Caption>Emojified title</Caption>
+                <div className="text-display font-semibold leading-none">
+                  <div className="break-keep">
                     {result ? (result.emoji ?? 'No match') : 'Loading'}
+                  </div>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <div
+                  className={`${resultMetaClass} flex items-center justify-between gap-3 border-border-default`}
+                >
+                  <div className="min-w-0">
+                    <Body className="m-0 font-semibold">
+                      {copied ? 'Copied' : 'Copy emoji'}
+                    </Body>
                   </div>
                   <button
                     aria-label={
@@ -143,12 +157,11 @@ export function ConverterPage() {
                     {copied ? '✓' : '📋'}
                   </button>
                 </div>
-              </div>
-              <div
-                className={`rounded-default border bg-surface-sunken px-3 py-2 text-left ${status.tone}`}
-              >
-                <Subtle className="m-0">Match quality</Subtle>
-                <Body className="m-0 font-semibold">{status.label}</Body>
+                <div
+                  className={`${resultMetaClass} flex flex-col justify-center text-left ${status.tone}`}
+                >
+                  <Body className="m-0 font-semibold">{status.label}</Body>
+                </div>
               </div>
             </div>
 
@@ -185,7 +198,7 @@ export function ConverterPage() {
             </label>
 
             <button className={buttonClass} type="submit">
-              Translate
+              Emojify!
             </button>
           </form>
 
