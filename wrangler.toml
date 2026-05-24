@@ -1,0 +1,7 @@
+name = "emoji-translator-api"
+main = "src/api/worker.ts"
+compatibility_date = "2026-05-23"
+
+[observability]
+enabled = true
+

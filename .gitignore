@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-api/
+build/
+coverage/
+review/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+.codex-*.log
+.wrangler/

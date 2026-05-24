@@ -1,0 +1,152 @@
+[
+  {
+    "input": "spiderman",
+    "parts": ["spider", "man"],
+    "emoji": "🕷️👨",
+    "rule": "compound"
+  },
+  {
+    "input": "spider-man",
+    "parts": ["spider", "man"],
+    "emoji": "🕷️👨",
+    "rule": "compound"
+  },
+  {
+    "input": "batman",
+    "parts": ["bat", "man"],
+    "emoji": "🦇👨",
+    "rule": "compound"
+  },
+  {
+    "input": "moonlight",
+    "parts": ["moon", "light"],
+    "emoji": "🌙💡",
+    "rule": "compound"
+  },
+  {
+    "input": "snowman",
+    "parts": ["snow", "man"],
+    "emoji": "❄️👨",
+    "rule": "compound"
+  },
+  {
+    "input": "clockwork",
+    "parts": ["clock", "work"],
+    "emoji": "⏰⚙️",
+    "rule": "compound"
+  },
+  {
+    "input": "sunrise",
+    "parts": ["sun", "rise"],
+    "emoji": "☀️⬆️",
+    "rule": "partial_word"
+  },
+  {
+    "input": "before",
+    "parts": ["bee", "four"],
+    "emoji": "🐝4️⃣",
+    "rule": "partial_word"
+  },
+  {
+    "input": "godfather",
+    "parts": ["god", "father"],
+    "emoji": "🙏👨",
+    "rule": "compound"
+  },
+  {
+    "input": "braveheart",
+    "parts": ["brave", "heart"],
+    "emoji": "🛡️❤️",
+    "rule": "compound"
+  },
+  {
+    "input": "goodfellas",
+    "parts": ["good", "fellas"],
+    "emoji": "👍👨",
+    "rule": "compound"
+  },
+  {
+    "input": "ghostbusters",
+    "parts": ["ghost", "busters"],
+    "emoji": "👻🚫",
+    "rule": "compound"
+  },
+  {
+    "input": "robocop",
+    "parts": ["robot", "cop"],
+    "emoji": "🤖👮",
+    "rule": "compound"
+  },
+  {
+    "input": "casablanca",
+    "parts": ["casa", "blanca"],
+    "emoji": "🏠⚪",
+    "rule": "compound"
+  },
+  {
+    "input": "forrest",
+    "parts": ["tree", "tree"],
+    "emoji": "🌲🌲",
+    "rule": "partial_word"
+  },
+  {
+    "input": "truman",
+    "parts": ["true", "man"],
+    "emoji": "✅👨",
+    "rule": "partial_word"
+  },
+  {
+    "input": "nemo",
+    "parts": ["knee", "mow"],
+    "emoji": "🦵🚜",
+    "rule": "partial_word"
+  },
+  {
+    "input": "season",
+    "parts": ["sea", "sun"],
+    "emoji": "🌊☀️",
+    "rule": "partial_word"
+  },
+  {
+    "input": "notice",
+    "parts": ["note", "ice"],
+    "emoji": "🎵🧊",
+    "rule": "partial_word"
+  },
+  {
+    "input": "belief",
+    "parts": ["bee", "leaf"],
+    "emoji": "🐝🍃",
+    "rule": "partial_word"
+  },
+  {
+    "input": "focus",
+    "parts": ["foe", "kiss"],
+    "emoji": "🦹💋",
+    "rule": "partial_word"
+  },
+  {
+    "input": "cabin",
+    "parts": ["cab", "inn"],
+    "emoji": "🚕🏨",
+    "rule": "partial_word"
+  },
+  {
+    "input": "super",
+    "parts": ["soup", "purr"],
+    "emoji": "🥣🐈",
+    "rule": "partial_word"
+  },
+  {
+    "input": "carpet",
+    "parts": ["car", "pet"],
+    "emoji": "🚗🐶",
+    "rule": "partial_word"
+  },
+  {
+    "input": "decade",
+    "parts": ["deck", "aid"],
+    "emoji": "🃏⛑️",
+    "rule": "partial_word"
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "input": "i",
+    "soundsLike": "eye",
+    "emoji": "👁️",
+    "confidence": 0.95,
+    "example": "I, Robot"
+  },
+  {
+    "input": "be",
+    "soundsLike": "bee",
+    "emoji": "🐝",
+    "confidence": 0.9
+  },
+  {
+    "input": "to",
+    "soundsLike": "two",
+    "emoji": "2️⃣",
+    "confidence": 0.9
+  },
+  {
+    "input": "too",
+    "soundsLike": "two",
+    "emoji": "2️⃣",
+    "confidence": 0.88
+  },
+  {
+    "input": "for",
+    "soundsLike": "four",
+    "emoji": "4️⃣",
+    "confidence": 0.9
+  },
+  {
+    "input": "fore",
+    "soundsLike": "four",
+    "emoji": "4️⃣",
+    "confidence": 0.85
+  },
+  {
+    "input": "shaw",
+    "soundsLike": "shore",
+    "emoji": "🏖️",
+    "confidence": 0.82
+  },
+  {
+    "input": "ne",
+    "soundsLike": "knee",
+    "emoji": "🦵",
+    "confidence": 0.82
+  },
+  {
+    "input": "mo",
+    "soundsLike": "mow",
+    "emoji": "🚜",
+    "confidence": 0.78
+  },
+  {
+    "input": "tru",
+    "soundsLike": "true",
+    "emoji": "✅",
+    "confidence": 0.82
+  },
+  {
+    "input": "see",
+    "soundsLike": "sea",
+    "emoji": "🌊",
+    "confidence": 0.8
+  },
+  {
+    "input": "sea",
+    "soundsLike": "see",
+    "emoji": "👀",
+    "confidence": 0.75
+  },
+  {
+    "input": "son",
+    "soundsLike": "sun",
+    "emoji": "☀️",
+    "confidence": 0.82
+  },
+  {
+    "input": "night",
+    "soundsLike": "knight",
+    "emoji": "🛡️",
+    "confidence": 0.72
+  },
+  {
+    "input": "who",
+    "soundsLike": "hoo",
+    "emoji": "🦉",
+    "confidence": 0.95
+  },
+  {
+    "input": "sense",
+    "soundsLike": "cents",
+    "emoji": "🪙",
+    "confidence": 0.85
+  },
+  {
+    "input": "b",
+    "soundsLike": "bee",
+    "emoji": "🐝",
+    "confidence": 0.95
+  },
+  {
+    "input": "ate",
+    "soundsLike": "eight",
+    "emoji": "8️⃣",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "aunt",
+    "soundsLike": "ant",
+    "emoji": "🐜",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "aye",
+    "soundsLike": "eye",
+    "emoji": "👁️",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "bare",
+    "soundsLike": "bear",
+    "emoji": "🐻",
+    "confidence": 0.88,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "beatle",
+    "soundsLike": "beetle",
+    "emoji": "🪲",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "belle",
+    "soundsLike": "bell",
+    "emoji": "🔔",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "bier",
+    "soundsLike": "beer",
+    "emoji": "🍺",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "blew",
+    "soundsLike": "blue",
+    "emoji": "🔵",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "bred",
+    "soundsLike": "bread",
+    "emoji": "🍞",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "dear",
+    "soundsLike": "deer",
+    "emoji": "🦌",
+    "confidence": 0.88,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "dye",
+    "soundsLike": "die",
+    "emoji": "🎲",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "fair",
+    "soundsLike": "fare",
+    "emoji": "🚕",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "feat",
+    "soundsLike": "feet",
+    "emoji": "🦶",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "flour",
+    "soundsLike": "flower",
+    "emoji": "🌸",
+    "confidence": 0.88,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "hair",
+    "soundsLike": "hare",
+    "emoji": "🐇",
+    "confidence": 0.88,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "hoarse",
+    "soundsLike": "horse",
+    "emoji": "🐎",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "knows",
+    "soundsLike": "nose",
+    "emoji": "👃",
+    "confidence": 0.88,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "mayor",
+    "soundsLike": "mare",
+    "emoji": "🐎",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "meet",
+    "soundsLike": "meat",
+    "emoji": "🥩",
+    "confidence": 0.88,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "mete",
+    "soundsLike": "meat",
+    "emoji": "🥩",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "naught",
+    "soundsLike": "knot",
+    "emoji": "🪢",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "nee",
+    "soundsLike": "knee",
+    "emoji": "🦵",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "not",
+    "soundsLike": "knot",
+    "emoji": "🪢",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "nought",
+    "soundsLike": "knot",
+    "emoji": "🪢",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "our",
+    "soundsLike": "hour",
+    "emoji": "⏰",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "pair",
+    "soundsLike": "pear",
+    "emoji": "🍐",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "pare",
+    "soundsLike": "pear",
+    "emoji": "🍐",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "pause",
+    "soundsLike": "paws",
+    "emoji": "🐾",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "peace",
+    "soundsLike": "piece",
+    "emoji": "🧩",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "plain",
+    "soundsLike": "plane",
+    "emoji": "✈️",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "quay",
+    "soundsLike": "key",
+    "emoji": "🔑",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "reed",
+    "soundsLike": "read",
+    "emoji": "📖",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "reign",
+    "soundsLike": "rain",
+    "emoji": "🌧️",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "rein",
+    "soundsLike": "rain",
+    "emoji": "🌧️",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "right",
+    "soundsLike": "write",
+    "emoji": "✍️",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "rite",
+    "soundsLike": "write",
+    "emoji": "✍️",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "rows",
+    "soundsLike": "rose",
+    "emoji": "🌹",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "sail",
+    "soundsLike": "sale",
+    "emoji": "🏷️",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "scents",
+    "soundsLike": "cents",
+    "emoji": "💰",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "sheer",
+    "soundsLike": "shear",
+    "emoji": "✂️",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "soar",
+    "soundsLike": "saw",
+    "emoji": "🪚",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "sore",
+    "soundsLike": "saw",
+    "emoji": "🪚",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "soul",
+    "soundsLike": "sole",
+    "emoji": "👟",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "sow",
+    "soundsLike": "sew",
+    "emoji": "🧵",
+    "confidence": 0.82,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "towed",
+    "soundsLike": "toad",
+    "emoji": "🐸",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "wail",
+    "soundsLike": "whale",
+    "emoji": "🐋",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "waive",
+    "soundsLike": "wave",
+    "emoji": "👋",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "which",
+    "soundsLike": "witch",
+    "emoji": "🧙",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "whine",
+    "soundsLike": "wine",
+    "emoji": "🍷",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "whole",
+    "soundsLike": "hole",
+    "emoji": "🕳️",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "won",
+    "soundsLike": "one",
+    "emoji": "1️⃣",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "would",
+    "soundsLike": "wood",
+    "emoji": "🪵",
+    "confidence": 0.88,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "wright",
+    "soundsLike": "write",
+    "emoji": "✍️",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "wring",
+    "soundsLike": "ring",
+    "emoji": "💍",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "yew",
+    "soundsLike": "ewe",
+    "emoji": "🐑",
+    "confidence": 0.84,
+    "example": "Imported from supplied rebus homophone lists"
+  },
+  {
+    "input": "you",
+    "soundsLike": "ewe",
+    "emoji": "🐑",
+    "confidence": 0.86,
+    "example": "Imported from supplied rebus homophone lists"
+  }
+]

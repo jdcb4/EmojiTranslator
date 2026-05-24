@@ -1,0 +1,812 @@
+[
+  {
+    "title": "Up",
+    "year": 2009,
+    "movieClueEmoji": "🎈👴🏠",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses balloons, an older man, and a house as iconic visual elements from the movie.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Jaws",
+    "year": 1975,
+    "movieClueEmoji": "🦈",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses a shark as the central iconic threat.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Titanic",
+    "year": 1997,
+    "movieClueEmoji": "🚢🧊❤️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses ship, iceberg, and romance symbols as an iconic movie clue.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Matrix",
+    "year": 1999,
+    "movieClueEmoji": "💊🕶️💻",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses pill, sunglasses, and computer symbols associated with the movie.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Frozen",
+    "year": 2013,
+    "movieClueEmoji": "❄️👸",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses snow and princess symbols as an iconic clue.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Toy Story",
+    "year": 1995,
+    "movieClueEmoji": "🤠🚀🧸",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses cowboy, rocket, and toy symbols for the main characters and theme.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Before Sunrise",
+    "year": 1995,
+    "movieClueEmoji": "🚆☀️❤️",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses train, sunrise, and romance symbols for the film's meeting and love story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Rocky IV",
+    "year": 1985,
+    "movieClueEmoji": "🥊4️⃣🇺🇸",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses boxing, the fourth installment number, and patriotic rivalry imagery.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Inception",
+    "year": 2010,
+    "movieClueEmoji": "🧠💤🌀",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses mind, sleep, and spiral symbols to clue dream layers.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Memento",
+    "year": 2000,
+    "movieClueEmoji": "🧠📸❓",
+    "approved": true,
+    "difficulty": "hard",
+    "explanation": "Uses memory, photos, and mystery symbols to clue the premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Tenet",
+    "year": 2020,
+    "movieClueEmoji": "⏪🔫⏩",
+    "approved": true,
+    "difficulty": "hard",
+    "explanation": "Uses time-direction and action symbols for the movie's time inversion premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "There Will Be Blood",
+    "year": 2007,
+    "movieClueEmoji": "🩸⛽🏜️",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses blood, oil, and desert symbols for the film's oil-boom setting and conflict.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "movieClueEmoji": "🏜️👴🔫",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses desert, older man, and weapon symbols for the western crime setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "movieClueEmoji": "🌍🌌🥯",
+    "approved": true,
+    "difficulty": "hard",
+    "explanation": "Uses world, multiverse, and bagel symbols for the movie's central imagery.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "movieClueEmoji": "🤵👨‍👧‍👦🔫",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses suit, family, and crime symbols for the mafia family drama.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Star Wars",
+    "year": 1977,
+    "movieClueEmoji": "⭐⚔️🚀",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses star, combat, and space symbols for the title and setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Jurassic Park",
+    "year": 1993,
+    "movieClueEmoji": "🦖🏞️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses dinosaur and park symbols for the core premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Back to the Future",
+    "year": 1985,
+    "movieClueEmoji": "⏪⏰🚗",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses back, time, and car symbols for time travel in a car.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Finding Nemo",
+    "year": 2003,
+    "movieClueEmoji": "🔍🐠",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses search and fish symbols for the missing fish story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "movieClueEmoji": "🌙🛡️🦇",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses dark, knight, and bat symbols for Batman.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "movieClueEmoji": "🏃🍫🦐",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses running, chocolate, and shrimp symbols tied to iconic scenes and lines.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "movieClueEmoji": "📖🔫🕺",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses fiction, crime, and dance symbols for recognisable movie elements.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "movieClueEmoji": "⛓️🕳️🕊️",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses chains, escape tunnel, and freedom symbols for the prison escape story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Fight Club",
+    "year": 1999,
+    "movieClueEmoji": "👊🥊",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses fist and boxing symbols for the title and premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Goodfellas",
+    "year": 1990,
+    "movieClueEmoji": "🤵🔫💵",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses suit, gun, and money symbols for a gangster crime story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "movieClueEmoji": "🤫🐑🕵️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses silence, lamb, and detective symbols for the title and investigation.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "movieClueEmoji": "🪖🎖️🚑",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses military and rescue symbols for the wartime mission.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Green Mile",
+    "year": 1999,
+    "movieClueEmoji": "🟩🚶⚡",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses green, walking path, and electricity symbols for the death-row setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Gladiator",
+    "year": 2000,
+    "movieClueEmoji": "⚔️🏛️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses sword and arena symbols for ancient Roman combat.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Braveheart",
+    "year": 1995,
+    "movieClueEmoji": "🛡️❤️⚔️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses shield, heart, and sword symbols for a warrior freedom story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Departed",
+    "year": 2006,
+    "movieClueEmoji": "🕵️🔫🐀",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses detective, gun, and rat symbols for undercover crime betrayal.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Prestige",
+    "year": 2006,
+    "movieClueEmoji": "🎩✨🎭",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses magician, sparkle, and theatre symbols for duelling stage magicians.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Social Network",
+    "year": 2010,
+    "movieClueEmoji": "💻👥🌐",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses computer, people, and web symbols for a social-media origin story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "movieClueEmoji": "🐺💵🏦",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses wolf, money, and finance symbols for the title and setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Truman Show",
+    "year": 1998,
+    "movieClueEmoji": "📺👨🌎",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses TV, man, and world symbols for a life broadcast as entertainment.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "movieClueEmoji": "🏨🛎️🎀",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses hotel, bell, and ornate styling symbols for the title setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Mad Max Fury Road",
+    "year": 2015,
+    "movieClueEmoji": "🚗🔥🏜️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses vehicle, fire, and desert symbols for the chase setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Black Panther",
+    "year": 2018,
+    "movieClueEmoji": "🐈‍⬛👑",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses black cat and crown symbols for the hero and royalty.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Iron Man",
+    "year": 2008,
+    "movieClueEmoji": "🤖🦾",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses robot and mechanical arm symbols for the armored hero.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Doctor Strange",
+    "year": 2016,
+    "movieClueEmoji": "🧑‍⚕️🌀✨",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses doctor, portal, and magic symbols for the title character.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Captain America",
+    "year": 2011,
+    "movieClueEmoji": "🛡️🇺🇸",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses shield and United States flag symbols for the hero.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "year": 2014,
+    "movieClueEmoji": "🛡️🌌🚀",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses guardian shield, galaxy, and rocket symbols for the space team.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Avengers",
+    "year": 2012,
+    "movieClueEmoji": "🦸⚔️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses superhero and battle symbols for the team-up movie.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Avatar",
+    "year": 2009,
+    "movieClueEmoji": "🔵🌿🌌",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses blue, nature, and alien-world symbols for Pandora.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Alien",
+    "year": 1979,
+    "movieClueEmoji": "👽🚀",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses alien and spaceship symbols for the sci-fi horror premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Aliens",
+    "year": 1986,
+    "movieClueEmoji": "👽👽🔫",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses multiple aliens and action symbols for the sequel.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Ghostbusters",
+    "year": 1984,
+    "movieClueEmoji": "👻🚫",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses ghost and no-entry symbols for busting ghosts.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "King Kong",
+    "year": 1933,
+    "movieClueEmoji": "👑🦍🏙️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses king, gorilla, and city symbols for the giant ape story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Godzilla",
+    "year": 1954,
+    "movieClueEmoji": "🦖🏙️🔥",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses monster, city, and destruction symbols.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Terminator",
+    "year": 1984,
+    "movieClueEmoji": "🤖🔫",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses robot and weapon symbols for the cyborg assassin.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "RoboCop",
+    "year": 1987,
+    "movieClueEmoji": "🤖👮",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses robot and police symbols for the title character.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Blade Runner",
+    "year": 1982,
+    "movieClueEmoji": "🔪🏃🌃",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses blade, runner, and neon-city symbols for the title and setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "movieClueEmoji": "🎳🥃🕶️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses bowling, drink, and sunglasses symbols for iconic character details.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "La La Land",
+    "year": 2016,
+    "movieClueEmoji": "🎵💃🌃",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses music, dance, and city-night symbols for the musical.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Whiplash",
+    "year": 2014,
+    "movieClueEmoji": "🥁⚡",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses drum and impact symbols for the intense jazz-drumming story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Get Out",
+    "year": 2017,
+    "movieClueEmoji": "🚪🏃👁️",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses door, escape, and watching symbols for the thriller premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Knives Out",
+    "year": 2019,
+    "movieClueEmoji": "🔪❓🏠",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses knife, mystery, and mansion symbols for the whodunit.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Parasite",
+    "year": 2019,
+    "movieClueEmoji": "🪱🏠💵",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses parasite, house, and money symbols for class conflict in a household.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Moonlight",
+    "year": 2016,
+    "movieClueEmoji": "🌙💡",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses moon and light symbols as a literal title clue.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Little Women",
+    "year": 2019,
+    "movieClueEmoji": "👧👧👧👧",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses four girl symbols for the March sisters.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Beauty and the Beast",
+    "year": 1991,
+    "movieClueEmoji": "🌹👸🐺",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses rose, princess, and beast-like animal symbols.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Little Mermaid",
+    "year": 1989,
+    "movieClueEmoji": "🧜‍♀️🌊",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses mermaid and sea symbols for the title character.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Aladdin",
+    "year": 1992,
+    "movieClueEmoji": "🧞‍♂️🪔🕌",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses genie, lamp, and palace symbols for the story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Coco",
+    "year": 2017,
+    "movieClueEmoji": "💀🎸🌺",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses skull, guitar, and flowers for the Day of the Dead musical story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Inside Out",
+    "year": 2015,
+    "movieClueEmoji": "🧠😄😢",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses mind and emotion symbols for the internal-emotions premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Monsters Inc",
+    "year": 2001,
+    "movieClueEmoji": "👹🏭🚪",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses monster, factory, and door symbols for the movie's world.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Shrek",
+    "year": 2001,
+    "movieClueEmoji": "🟢👹🏰",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses green, ogre-like monster, and castle symbols for the character and setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Ratatouille",
+    "year": 2007,
+    "movieClueEmoji": "🐀🍳🍽️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses rat, cooking, and meal symbols for the chef-rat premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Wall-E",
+    "year": 2008,
+    "movieClueEmoji": "🤖🌱🚀",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses robot, plant, and space symbols for the title character and story.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Incredibles",
+    "year": 2004,
+    "movieClueEmoji": "🦸👨‍👩‍👧‍👦",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses superhero and family symbols for the superhero family.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Wizard of Oz",
+    "year": 1939,
+    "movieClueEmoji": "🧙‍♀️🌪️👠",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses witch, tornado, and ruby-shoe symbols for iconic elements.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Singin' in the Rain",
+    "year": 1952,
+    "movieClueEmoji": "🎤🌧️☂️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses singing, rain, and umbrella symbols for the title and famous sequence.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Psycho",
+    "year": 1960,
+    "movieClueEmoji": "🔪🚿🏨",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses knife, shower, and motel symbols for the famous scene and setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Rear Window",
+    "year": 1954,
+    "movieClueEmoji": "🪟👀📷",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses window, watching, and camera symbols for the voyeur mystery.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Vertigo",
+    "year": 1958,
+    "movieClueEmoji": "🌀🏙️",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses spiral and city symbols for dizziness and the San Francisco setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Casablanca",
+    "year": 1942,
+    "movieClueEmoji": "🇲🇦✈️❤️",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses Morocco, airplane, and romance symbols for the setting and farewell.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Citizen Kane",
+    "year": 1941,
+    "movieClueEmoji": "📰👑🛷",
+    "approved": true,
+    "difficulty": "hard",
+    "explanation": "Uses newspaper, power, and sled symbols for the media magnate and Rosebud clue.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Sound of Music",
+    "year": 1965,
+    "movieClueEmoji": "🎵⛰️👩‍👧‍👦",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses music, mountains, and family symbols for the musical.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Mary Poppins",
+    "year": 1964,
+    "movieClueEmoji": "☂️👜✨",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses umbrella, bag, and magic symbols for the title character.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Home Alone",
+    "year": 1990,
+    "movieClueEmoji": "🏠👦",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses house and boy symbols for a child left at home.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Die Hard",
+    "year": 1988,
+    "movieClueEmoji": "💥🏢👮",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses explosion, tower, and cop symbols for the action setting.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Speed",
+    "year": 1994,
+    "movieClueEmoji": "🚌💣💨",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses bus, bomb, and speed symbols for the premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Top Gun",
+    "year": 1986,
+    "movieClueEmoji": "✈️🎖️🔫",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses plane, medal, and gun symbols for fighter-pilot action.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Mission Impossible",
+    "year": 1996,
+    "movieClueEmoji": "🕵️💣🧗",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses spy, bomb, and stunt symbols for the action franchise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Indiana Jones",
+    "year": 1981,
+    "movieClueEmoji": "🤠🏺🧭",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses hat, artifact, and compass symbols for the adventurer.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Mummy",
+    "year": 1999,
+    "movieClueEmoji": "🧟‍♂️🏺🏜️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses mummy-like figure, artifact, and desert symbols.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "The Notebook",
+    "year": 2004,
+    "movieClueEmoji": "📓❤️",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses notebook and heart symbols for the romance.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Love Actually",
+    "year": 2003,
+    "movieClueEmoji": "❤️🎄💌",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses love, Christmas, and message symbols for the ensemble romance.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Eternal Sunshine",
+    "year": 2004,
+    "movieClueEmoji": "☀️🧠💔",
+    "approved": true,
+    "difficulty": "medium",
+    "explanation": "Uses sunshine, memory, and heartbreak symbols for the romance and memory premise.",
+    "source": "curated starter table"
+  },
+  {
+    "title": "Mean Girls",
+    "year": 2004,
+    "movieClueEmoji": "👧💅📓",
+    "approved": true,
+    "difficulty": "easy",
+    "explanation": "Uses girl, style, and notebook symbols for the high-school clique comedy.",
+    "source": "curated starter table"
+  }
+]
