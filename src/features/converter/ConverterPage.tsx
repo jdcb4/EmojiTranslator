@@ -122,6 +122,13 @@ export function ConverterPage() {
             Convert movie titles into emoji strings. Not everything can be
             translated.
           </Body>
+          <Body className="m-0 text-body-sm text-text-secondary">
+            Want to play?{' '}
+            <a className="font-semibold text-accent-primary" href="./">
+              Back to the Emoji Title Game
+            </a>
+            .
+          </Body>
         </section>
 
         <section className="space-y-5">

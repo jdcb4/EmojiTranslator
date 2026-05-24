@@ -1,7 +1,7 @@
 {
   "name": "emoji-translator",
   "private": true,
-  "version": "0.31.0",
+  "version": "0.34.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,7 +16,9 @@
     "test:watch": "vitest",
     "analyse:coverage": "tsx scripts/analyseCoverage.ts",
     "fetch:corpus": "tsx scripts/fetchTitleCorpus.ts",
+    "fetch:game-corpus": "tsx scripts/fetchGameTitleCorpus.ts",
     "analyse:corpus": "tsx scripts/analyseCorpusCoverage.ts",
+    "generate:game-dataset": "tsx scripts/generateGameDataset.ts",
     "generate:candidates": "tsx scripts/generateCandidateReview.ts",
     "prompt:candidates": "tsx scripts/buildOpenRouterPrompt.ts",
     "llm:candidates": "tsx scripts/reviewCandidatesWithOpenRouter.ts",

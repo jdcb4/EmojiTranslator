@@ -4,12 +4,12 @@ This document describes the project's runtime shape and module boundaries.
 
 ## Runtime Shape
 
-- App type: browser web app with optional public API.
+- App type: static browser guessing game with optional public converter API.
 - Framework/runtime: Vite + React + TypeScript.
 - API runtime: Hono, deployable as a Cloudflare Worker or Node service.
 - Styling: Tailwind CSS mapped to semantic CSS custom property tokens.
 - Deployment target: static frontend, with an optional backend-only API.
-- Persistence model: static JSON files in `src/data/converter`.
+- Persistence model: static JSON files in `src/data/converter` and `src/data/game`.
 - Major integration boundaries: `/api/convert` and `/api/health`.
 
 ## Module Boundaries
@@ -22,10 +22,33 @@ This document describes the project's runtime shape and module boundaries.
 - `src/domain` - framework-independent business rules.
 - `src/services` - IO wrappers.
 - `src/data/converter` - editable deterministic conversion data.
+- `src/data/game` - generated static emoji-title clue data for the game.
 - `src/config` - typed config and environment parsing.
 - `src/lib` - small generic helpers without domain knowledge.
 - `src/styles` - CSS entrypoint and design tokens.
 - `src/tests` - shared test utilities and integration tests.
+
+## Game Pipeline
+
+The game runtime is fully static:
+
+1. `scripts/fetchGameTitleCorpus.ts` fetches movie, TV, and book title labels
+   from Wikidata into ignored `review/` files.
+2. `scripts/generateGameDataset.ts` converts those titles with the existing
+   hybrid converter and writes only high-confidence, fully mapped clues to
+   `src/data/game/title-clues.json`. Each clue receives a stable six-letter
+   code for static share URLs.
+3. `src/features/game/GamePage.tsx` randomly draws clues from the committed
+   dataset or opens a specific clue from `?clue=CODE`.
+4. `src/domain/game/answerMatching.ts` normalises guesses and accepts exact
+   matches or tightly bounded Levenshtein near hits.
+
+The browser does not fetch Wikidata or call an LLM. Regeneration is a local
+maintenance step.
+
+Game share links are static. The frontend parses the `clue` query parameter,
+looks up the code in the bundled JSON dataset, and falls back to a random clue
+if the code is missing or stale.
 
 ## Boundary Rules
 
@@ -71,7 +94,7 @@ should be handled by the deployment platform or a deliberately added store.
 
 ## Persistence
 
-The app uses static JSON files in `src/data/converter`. Data is validated with Zod on load.
+The app uses static JSON files in `src/data/converter` and `src/data/game`. Data is validated with Zod on load.
 
 Move to a database only when JSON is unsuitable. Document the migration in `docs/DECISIONS.md` before or alongside the change.
 

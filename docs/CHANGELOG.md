@@ -2,6 +2,25 @@
 
 Notable changes by version. Newest entries go at the top.
 
+## 0.34.0 - 2026-05-24
+
+- Removed the total clue count from the game UI.
+- Updated clue sharing to include a Wordle-style text block with instructions, emoji clue, and share link.
+- Added static hash navigation so the game remains the landing page and links to the Emoji Translator at `#translator`.
+- Added a translator link back to the game.
+
+## 0.33.0 - 2026-05-24
+
+- Added stable six-letter clue codes to the generated game dataset.
+- Added static share URLs using `?clue=CODE` so specific clues can be opened without a backend.
+- Added a game share action that uses the phone share sheet when available and falls back to copying the clue link.
+
+## 0.32.0 - 2026-05-24
+
+- Added the first emoji-title guessing game fork backed by a static generated clue dataset.
+- Added Wikidata corpus-fetching and game-dataset generation scripts for movie, TV, and book titles.
+- Added title-answer normalisation and typo-tolerant matching for punctuation-insensitive near hits.
+
 ## 0.31.0 - 2026-05-24
 
 - Simplified result-card labels by renaming `Result` to `Emojified title`.

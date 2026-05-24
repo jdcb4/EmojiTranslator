@@ -6,6 +6,29 @@ tools for analysing coverage, reviewing candidates, enriching data, and
 regenerating derived files. Generated review artifacts are written to
 `review/`, which is ignored by git.
 
+## Game Clue Dataset
+
+The game dataset is generated from a broad Wikidata title corpus:
+
+```powershell
+pnpm run fetch:game-corpus
+pnpm run generate:game-dataset
+```
+
+`fetch:game-corpus` queries Wikidata for film, TV-series, and book/novel labels
+ordered by sitelinks, then writes `review/game-title-corpus.json`.
+
+`generate:game-dataset` converts that corpus with the existing hybrid
+converter, rejects titles below the confidence threshold, rejects clues with
+unmapped tokens, and writes the static runtime dataset to
+`src/data/game/title-clues.json`. It also assigns each clue a stable six-letter
+code used by static share URLs such as `?clue=ABCDEF`. The default threshold is
+`0.9`; use
+`--min-confidence` only when intentionally changing the quality/quantity tradeoff.
+
+The current generated dataset was built from 8,921 unique source titles and kept
+994 clues: 500 movie, 225 TV, and 269 book clues.
+
 ## Coverage And Candidate Review
 
 Use these scripts when testing a movie/book/title corpus and mining new
